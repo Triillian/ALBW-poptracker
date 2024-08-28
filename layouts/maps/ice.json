@@ -1,0 +1,40 @@
+{
+  "ice": {
+    "type": "container",
+    "content": [
+      {
+        "type": "array",
+        "orientation": "vertical",
+        "content": [
+          {
+            "type": "map",
+            "maps": [
+              "iceB4",
+              "iceB1",
+              ""
+            ]
+          },
+          {
+            "type": "map",
+            "maps": [
+              "iceB5",
+              "iceB2",
+              ""
+            ]
+          },
+          {
+            "type": "map",
+            "maps": [
+              "iceB6",
+              "iceB3",
+              "ice1F"
+            ]
+          },
+          {
+            "type": "container"
+          }
+        ]
+      }
+    ]
+  }
+}

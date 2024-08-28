@@ -1,0 +1,19 @@
+{
+  "worlds": {
+    "type": "container",
+    "content": [
+      {
+        "type": "array",
+        "content": [
+          {
+            "type": "map",
+            "maps": [
+              "hyrule",
+              "lorule"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

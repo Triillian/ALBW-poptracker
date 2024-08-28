@@ -1,0 +1,203 @@
+[
+  {
+    "name": "Thieves' Hideout",
+    "color": "#dde44e",
+    "chest_unopened_img": "images/checks/chest_small_unopened.png",
+    "chest_opened_img": "images/checks/chest_small_opened.png",
+    "access_rules": [
+      "$access_central_lorule",
+      "[advanced], $advanced_access_central_lorule",
+      "[hell], $hell_access_central_lorule"
+    ],
+    "children": [
+      {
+        "name": "Thieves' Hideout",
+        "map_locations": [
+          {
+            "map": "thievesB1",
+            "x": 56,
+            "y": 98
+          }
+        ],
+        "sections": [
+          {
+            "ref": "Lorule Overworld/Thieves' Hideout/B1 Grate Chest"
+          }
+        ]
+      },
+      {
+        "name": "Thieves' Hideout",
+        "map_locations": [
+          {
+            "map": "thievesB1",
+            "x": 59,
+            "y": 117
+          }
+        ],
+        "sections": [
+          {
+            "ref": "Lorule Overworld/Thieves' Hideout/B1 Jail Cell"
+          }
+        ]
+      },
+      {
+        "name": "Thieves' Hideout",
+        "map_locations": [
+          {
+            "map": "thievesB2",
+            "x": 51,
+            "y": 53
+          }
+        ],
+        "sections": [
+          {
+            "ref": "Lorule Overworld/Thieves' Hideout/B2 NW Room"
+          }
+        ]
+      },
+      {
+        "name": "Thieves' Hideout",
+        "map_locations": [
+          {
+            "map": "thievesB2",
+            "x": 99,
+            "y": 91
+          }
+        ],
+        "sections": [
+          {
+            "ref": "Lorule Overworld/Thieves' Hideout/B2 Jail Cell"
+          }
+        ]
+      },
+      {
+        "name": "Thieves' Hideout",
+        "map_locations": [
+          {
+            "map": "thievesB2",
+            "x": 80,
+            "y": 32
+          }
+        ],
+        "sections": [
+          {
+            "ref": "Lorule Overworld/Thieves' Hideout/B2 Eyegores"
+          }
+        ]
+      },
+      {
+        "name": "Thieves' Hideout",
+        "map_locations": [
+          {
+            "map": "thievesB2",
+            "x": 122,
+            "y": 117
+          }
+        ],
+        "sections": [
+          {
+            "ref": "Lorule Overworld/Thieves' Hideout/B2 SE Room"
+          }
+        ]
+      },
+      {
+        "name": "Thieves' Hideout",
+        "map_locations": [
+          {
+            "map": "thievesB3",
+            "x": 132,
+            "y": 79
+          }
+        ],
+        "sections": [
+          {
+            "ref": "Lorule Overworld/Thieves' Hideout/B3 Underwater"
+          }
+        ]
+      },
+      {
+        "name": "Thieves' Hideout",
+        "map_locations": [
+          {
+            "map": "thievesB3",
+            "x": 102,
+            "y": 32
+          }
+        ],
+        "sections": [
+          {
+            "ref": "Lorule Overworld/Thieves' Hideout/B3 Big Chest"
+          }
+        ]
+      },
+      {
+        "name": "Thieves' Hideout",
+        "map_locations": [
+          {
+            "map": "thievesB1",
+            "x": 56,
+            "y": 79
+          }
+        ],
+        "sections": [
+          {
+            "ref": "Lorule Overworld/Thieves' Hideout/B1 Behind Wall"
+          }
+        ]
+      },
+      {
+        "name": "Thieves' Hideout",
+        "map_locations": [
+          {
+            "map": "thievesB1",
+            "x": 81,
+            "y": 75
+          }
+        ],
+        "sections": [
+          {
+            "ref": "Lorule Overworld/Thieves' Hideout/B1 Big Chest"
+          }
+        ]
+      },
+      {
+        "name": "Thieves' Hideout",
+        "map_locations": [
+          {
+            "map": "thievesB1",
+            "x": 150,
+            "y": 167
+          }
+        ],
+        "sections": [
+          {
+            "ref": "Lorule Overworld/Thieves' Hideout/Stalblind"
+          }
+        ]
+      },
+      {
+        "name": "Thieves' Hideout",
+        "map_locations": [
+          {
+            "map": "thievesB1",
+            "x": 136,
+            "y": 167,
+            "size": 20
+          }
+        ],
+        "sections": [
+          {"name": "Pendant of Power", "hosted_item": "power", "access_rules": ["$thEscapeEquipment, merge, $attack_normal", "[hard], $thEscapeEquipment, merge, $attack", "[advanced], $adv_th_statue_clip, trod, $attack", "[hell], $hell_th_statue_clip, trod, $attack"], "visibility_rules": ["label_power_tt"]},
+          {"name": "Pendant of Wisdom", "hosted_item": "wisdom", "access_rules": ["$thEscapeEquipment, merge, $attack_normal", "[hard], $thEscapeEquipment, merge, $attack", "[advanced], $adv_th_statue_clip, trod, $attack", "[hell], $hell_th_statue_clip, trod, $attack"], "visibility_rules": ["label_wisdom_tt"]},
+          {"name": "Pendant of Courage", "hosted_item": "courage", "access_rules": ["$thEscapeEquipment, merge, $attack_normal", "[hard], $thEscapeEquipment, merge, $attack", "[advanced], $adv_th_statue_clip, trod, $attack", "[hell], $hell_th_statue_clip, trod, $attack"], "visibility_rules": ["label_courage_tt"]},
+          {"name": "Gulley", "hosted_item": "gulley", "access_rules": ["$thEscapeEquipment, merge, $attack_normal", "[hard], $thEscapeEquipment, merge, $attack", "[advanced], $adv_th_statue_clip, trod, $attack", "[hell], $hell_th_statue_clip, trod, $attack"], "visibility_rules": ["label_gulley_tt"]},
+          {"name": "Oren", "hosted_item": "oren", "access_rules": ["$thEscapeEquipment, merge, $attack_normal", "[hard], $thEscapeEquipment, merge, $attack", "[advanced], $adv_th_statue_clip, trod, $attack", "[hell], $hell_th_statue_clip, trod, $attack"], "visibility_rules": ["label_oren_tt"]},
+          {"name": "Seres", "hosted_item": "seres", "access_rules": ["$thEscapeEquipment, merge, $attack_normal", "[hard], $thEscapeEquipment, merge, $attack", "[advanced], $adv_th_statue_clip, trod, $attack", "[hell], $hell_th_statue_clip, trod, $attack"], "visibility_rules": ["label_seres_tt"]},
+          {"name": "Osfala", "hosted_item": "osfala", "access_rules": ["$thEscapeEquipment, merge, $attack_normal", "[hard], $thEscapeEquipment, merge, $attack", "[advanced], $adv_th_statue_clip, trod, $attack", "[hell], $hell_th_statue_clip, trod, $attack"], "visibility_rules": ["label_osfala_tt"]},
+          {"name": "Impa", "hosted_item": "impa", "access_rules": ["$thEscapeEquipment, merge, $attack_normal", "[hard], $thEscapeEquipment, merge, $attack", "[advanced], $adv_th_statue_clip, trod, $attack", "[hell], $hell_th_statue_clip, trod, $attack"], "visibility_rules": ["label_impa_tt"]},
+          {"name": "Irene", "hosted_item": "irene", "access_rules": ["$thEscapeEquipment, merge, $attack_normal", "[hard], $thEscapeEquipment, merge, $attack", "[advanced], $adv_th_statue_clip, trod, $attack", "[hell], $hell_th_statue_clip, trod, $attack"], "visibility_rules": ["label_irene_tt"]},
+          {"name": "Rosso", "hosted_item": "rosso", "access_rules": ["$thEscapeEquipment, merge, $attack_normal", "[hard], $thEscapeEquipment, merge, $attack", "[advanced], $adv_th_statue_clip, trod, $attack", "[hell], $hell_th_statue_clip, trod, $attack"], "visibility_rules": ["label_rosso_tt"]}
+        ]
+      }
+    ]
+  }
+]

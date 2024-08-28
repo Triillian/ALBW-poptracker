@@ -1,0 +1,263 @@
+[
+  {
+    "name": "Ice Ruins",
+    "color": "#ef3435",
+    "chest_unopened_img": "images/checks/chest_small_unopened.png",
+    "chest_opened_img": "images/checks/chest_small_opened.png",
+    "access_rules": [
+      "frod, $access_ldm_east_top",
+      "[glitched], frod, $glitched_access_ldm_east_top",
+      "[hell], frod, $hell_access_ldm_east_top"
+    ],
+    "children": [
+      {
+        "name": "Ice Ruins",
+        "map_locations": [
+          {
+            "map": "ice1F",
+            "x": 90,
+            "y": 133
+          }
+        ],
+        "sections": [
+          {
+            "ref": "Lorule Overworld/Ice Ruins/1F Hidden"
+          }
+        ]
+      },
+      {
+        "name": "Ice Ruins",
+        "map_locations": [
+          {
+            "map": "iceB1",
+            "x": 137,
+            "y": 75
+          }
+        ],
+        "sections": [
+          {
+            "ref": "Lorule Overworld/Ice Ruins/B1 Torches"
+          }
+        ]
+      },
+      {
+        "name": "Ice Ruins",
+        "map_locations": [
+          {
+            "map": "iceB1",
+            "x": 137,
+            "y": 116
+          }
+        ],
+        "sections": [
+          {
+            "ref": "Lorule Overworld/Ice Ruins/B1 East Chest"
+          }
+        ]
+      },
+      {
+        "name": "Ice Ruins",
+        "map_locations": [
+          {
+            "map": "iceB1",
+            "x": 99,
+            "y": 108
+          }
+        ],
+        "sections": [
+          {
+            "ref": "Lorule Overworld/Ice Ruins/B1 Center Chest"
+          }
+        ]
+      },
+      {
+        "name": "Ice Ruins",
+        "map_locations": [
+          {
+            "map": "iceB2",
+            "x": 80,
+            "y": 134
+          }
+        ],
+        "sections": [
+          {
+            "ref": "Lorule Overworld/Ice Ruins/B2 Icicle"
+          }
+        ]
+      },
+      {
+        "name": "Ice Ruins",
+        "map_locations": [
+          {
+            "map": "iceB2",
+            "x": 90,
+            "y": 54
+          }
+        ],
+        "sections": [
+          {
+            "ref": "Lorule Overworld/Ice Ruins/B2 Long Merge"
+          }
+        ]
+      },
+      {
+        "name": "Ice Ruins",
+        "map_locations": [
+          {
+            "map": "iceB3",
+            "x": 85,
+            "y": 142
+          }
+        ],
+        "sections": [
+          {
+            "ref": "Lorule Overworld/Ice Ruins/B3 Elevator Left"
+          }
+        ]
+      },
+      {
+        "name": "Ice Ruins",
+        "map_locations": [
+          {
+            "map": "iceB3",
+            "x": 95,
+            "y": 142
+          }
+        ],
+        "sections": [
+          {
+            "ref": "Lorule Overworld/Ice Ruins/B3 Elevator Right"
+          }
+        ]
+      },
+      {
+        "name": "Ice Ruins",
+        "map_locations": [
+          {
+            "map": "iceB3",
+            "x": 90,
+            "y": 94
+          }
+        ],
+        "sections": [
+          {
+            "ref": "Lorule Overworld/Ice Ruins/B3 Big Chest"
+          }
+        ]
+      },
+      {
+        "name": "Ice Ruins",
+        "map_locations": [
+          {
+            "map": "iceB4",
+            "x": 84,
+            "y": 57
+          }
+        ],
+        "sections": [
+          {
+            "ref": "Lorule Overworld/Ice Ruins/B4 Switches"
+          }
+        ]
+      },
+      {
+        "name": "Ice Ruins",
+        "map_locations": [
+          {
+            "map": "iceB4",
+            "x": 23,
+            "y": 142
+          }
+        ],
+        "sections": [
+          {
+            "ref": "Lorule Overworld/Ice Ruins/B4 SW Fall Chest"
+          }
+        ]
+      },
+      {
+        "name": "Ice Ruins",
+        "map_locations": [
+          {
+            "map": "iceB4",
+            "x": 122,
+            "y": 136
+          }
+        ],
+        "sections": [
+          {
+            "ref": "Lorule Overworld/Ice Ruins/B4 SE Fall Chest"
+          }
+        ]
+      },
+      {
+        "name": "Ice Ruins",
+        "map_locations": [
+          {
+            "map": "iceB4",
+            "x": 86,
+            "y": 144
+          }
+        ],
+        "sections": [
+          {
+            "ref": "Lorule Overworld/Ice Ruins/B4 Shortcut"
+          }
+        ]
+      },
+      {
+        "name": "Ice Ruins",
+        "map_locations": [
+          {
+            "map": "iceB5",
+            "x": 90,
+            "y": 113
+          }
+        ],
+        "sections": [
+          {
+            "ref": "Lorule Overworld/Ice Ruins/B5 Big Chest"
+          }
+        ]
+      },
+      {
+        "name": "Ice Ruins",
+        "map_locations": [
+          {
+            "map": "iceB6",
+            "x": 90,
+            "y": 81
+          }
+        ],
+        "sections": [
+          {
+            "ref": "Lorule Overworld/Ice Ruins/Dharkstare"
+          }
+        ]
+      },
+      {
+        "name": "Ice Ruins",
+        "map_locations": [
+          {
+            "map": "iceB6",
+            "x": 90,
+            "y": 53,
+            "size": 24
+          }
+        ],
+        "sections": [
+          {"name": "Pendant of Power", "hosted_item": "power", "visibility_rules": ["label_power_ir"]},
+          {"name": "Pendant of Wisdom", "hosted_item": "wisdom", "visibility_rules": ["label_wisdom_ir"]},
+          {"name": "Pendant of Courage", "hosted_item": "courage", "visibility_rules": ["label_courage_ir"]},
+          {"name": "Gulley", "hosted_item": "gulley", "visibility_rules": ["label_gulley_ir"]},
+          {"name": "Oren", "hosted_item": "oren", "visibility_rules": ["label_oren_ir"]},
+          {"name": "Seres", "hosted_item": "seres", "visibility_rules": ["label_seres_ir"]},
+          {"name": "Osfala", "hosted_item": "osfala", "visibility_rules": ["label_osfala_ir"]},
+          {"name": "Impa", "hosted_item": "impa", "visibility_rules": ["label_impa_ir"]},
+          {"name": "Irene", "hosted_item": "irene", "visibility_rules": ["label_irene_ir"]},
+          {"name": "Rosso", "hosted_item": "rosso", "visibility_rules": ["label_rosso_ir"]}
+        ]
+      }
+    ]
+  }
+]

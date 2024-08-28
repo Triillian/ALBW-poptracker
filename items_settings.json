@@ -1,0 +1,367 @@
+[
+  {
+    "name": "Logic Mode",
+    "type": "progressive",
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/settings/Normal.png",
+        "codes": "logic",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/settings/Hard.png",
+        "codes": "hard",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/settings/Glitched.png",
+        "codes": "glitched",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/settings/Adv_Glitched.png",
+        "codes": "advanced",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/settings/Hell.png",
+        "codes": "hell",
+        "inherit_codes": true
+      }
+    ]
+  },
+  {
+    "name": "Lorule Castle Portrait Requirement",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/prizes/sage_zelda.png",
+        "img_mods": "overlay|images/numbers/purple_7.png",
+        "codes": "lc_requirement_7"
+      },
+      {
+        "img": "images/prizes/sage_zelda.png",
+        "img_mods": "overlay|images/numbers/purple_6.png",
+        "codes": "lc_requirement_6",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/prizes/sage_zelda.png",
+        "img_mods": "overlay|images/numbers/purple_5.png",
+        "codes": "lc_requirement_5",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/prizes/sage_zelda.png",
+        "img_mods": "overlay|images/numbers/purple_4.png",
+        "codes": "lc_requirement_4",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/prizes/sage_zelda.png",
+        "img_mods": "overlay|images/numbers/purple_3.png",
+        "codes": "lc_requirement_3",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/prizes/sage_zelda.png",
+        "img_mods": "overlay|images/numbers/purple_2.png",
+        "codes": "lc_requirement_2",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/prizes/sage_zelda.png",
+        "img_mods": "overlay|images/numbers/purple_1.png",
+        "codes": "lc_requirement_1",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/prizes/sage_zelda.png",
+        "img_mods": "overlay|images/numbers/purple_0.png,@disabled",
+        "codes": "lc_requirement",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Yuga Ganon Portrait Requirement",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/settings/Yuga_Ganon.png",
+        "img_mods": "overlay|images/settings/7.png",
+        "codes": "yg_requirement_7"
+      },
+      {
+        "img": "images/settings/Yuga_Ganon.png",
+        "img_mods": "overlay|images/settings/6.png",
+        "codes": "yg_requirement_6",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/settings/Yuga_Ganon.png",
+        "img_mods": "overlay|images/settings/5.png",
+        "codes": "yg_requirement_5",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/settings/Yuga_Ganon.png",
+        "img_mods": "overlay|images/settings/4.png",
+        "codes": "yg_requirement_4",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/settings/Yuga_Ganon.png",
+        "img_mods": "overlay|images/settings/3.png",
+        "codes": "yg_requirement_3",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/settings/Yuga_Ganon.png",
+        "img_mods": "overlay|images/settings/2.png",
+        "codes": "yg_requirement_2",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/settings/Yuga_Ganon.png",
+        "img_mods": "overlay|images/settings/1.png",
+        "codes": "yg_requirement_1",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/settings/Yuga_Ganon.png",
+        "img_mods": "overlay|images/settings/0.png,@disabled",
+        "codes": "yg_requirement",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Master Sword Pedestal Requirement",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/settings/Pedestal3.png",
+        "img_mods": "overlay|images/display/Normal.png",
+        "codes": "ped_requirement_3",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/settings/Pedestal2.png",
+        "img_mods": "overlay|images/settings/Vanilla.png",
+        "codes": "ped_requirement_2",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Nice Mode",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/settings/Nice_Mode.png",
+        "img_mods": "@disabled,overlay|images/settings/OFF.png",
+        "codes": "not_nice_mode",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/settings/Nice_Mode.png",
+        "img_mods": "overlay|images/settings/ON.png",
+        "codes": "nice_mode",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Progression Enemies",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/settings/bawb.png",
+        "img_mods": "overlay|images/settings/ON.png",
+        "codes": "progression_enemies",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/settings/bawb.png",
+        "img_mods": "@disabled,overlay|images/settings/OFF.png",
+        "codes": "no_progression_enemies",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Required Lorule Castle Trials",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/keys/Trials4.png",
+        "img_mods": "overlay|images/numbers/purple_4.png",
+        "codes": "trials_door_4",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/keys/Trials3.png",
+        "img_mods": "overlay|images/numbers/purple_3.png",
+        "codes": "trials_door_3",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/keys/Trials2.png",
+        "img_mods": "overlay|images/numbers/purple_2.png",
+        "codes": "trials_door_2",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/keys/Trials1.png",
+        "img_mods": "overlay|images/numbers/purple_1.png",
+        "codes": "trials_door_1",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/keys/Trials0.png",
+        "codes": "trials_door_open",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Dark Rooms Lamp Requirement",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/settings/lamp.png",
+        "img_mods": "overlay|images/settings/Need.png",
+        "codes": "lampful",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/settings/lamp.png",
+        "img_mods": "@disabled,overlay|images/settings/DARK.png",
+        "codes": "lampless",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Cracksanity",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/settings/cracksanity.png",
+        "img_mods": "@disabled,overlay|images/settings/OFF.png",
+        "codes": "not_cracksanity",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/settings/cracksanity.png",
+        "img_mods": "overlay|images/settings/ON.png",
+        "codes": "cracksanity",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Weather Vanes",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/settings/Weather_Vanes.png",
+        "img_mods": "overlay|images/settings/OFF.png,@disabled",
+        "codes": "weather_vanes",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/settings/Weather_Vanes.png",
+        "img_mods": "overlay|images/settings/Hyrule.png",
+        //"codes": "wv_hyrule, wv_kakariko, wv_eastern, wv_gales, wv_hera, wv_witch, wv_death_hyrule, wv_desert, wv_sanctuary",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/settings/Weather_Vanes.png",
+        "img_mods": "overlay|images/settings/Lorule.png",
+        //"codes": "wv_lorule, wv_skull, wv_treacherous_tower, wv_ice, wv_lorule_castle, wv_graveyard, wv_thieves, wv_dark, wv_blacksmith, wv_vacant_house, wv_mire, wv_swamp, wv_turtle, wv_death_lorule",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/settings/Weather_Vanes.png",
+        "img_mods": "overlay|images/settings/ALL.png",
+        //"codes": "wv_all, wv_kakariko, wv_eastern, wv_gales, wv_hera, wv_witch, wv_death_hyrule, wv_desert, wv_sanctuary, wv_skull, wv_treacherous_tower, wv_ice, wv_lorule_castle, wv_graveyard, wv_thieves, wv_dark, wv_blacksmith, wv_vacant_house, wv_mire, wv_swamp, wv_turtle, wv_death_lorule",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Regions",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/icons/regions_hide.png",
+        "codes": "regions_hide",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/icons/regions_show.png",
+        "codes": "regions_show",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Hyrule Region Map",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/maps/hyrule.png",
+        "codes": "regions_hyrule",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/maps/regions-hyrule.png",
+        "codes": "regions_show",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Lorule Region Map",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/maps/lorule.png",
+        "codes": "regions_hide",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/maps/regions-lorule.png",
+        "codes": "regions_lorule",
+        "inherit_codes": false
+      }
+    ]
+  }
+]

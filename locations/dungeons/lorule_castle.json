@@ -1,0 +1,301 @@
+[
+  {
+    "name": "Lorule Castle",
+    "color": "#5e518d",
+    "chest_unopened_img": "images/checks/chest_small_unopened.png",
+    "chest_opened_img": "images/checks/chest_small_opened.png",
+    "access_rules": [
+      "$canEnterLC",
+      "[advanced], $advanced_canEnterLC",
+      "[hell], $hell_canEnterLC"
+    ],
+    "children": [
+      {
+        "name": "Lorule Castle",
+        "map_locations": [
+          {
+            "map": "lorule1F",
+            "x": 97,
+            "y": 106
+          }
+        ],
+        "sections": [
+          {
+            "ref": "Lorule Overworld/Lorule Castle/1F Center"
+          }
+        ]
+      },
+      {
+        "name": "Lorule Castle",
+        "map_locations": [
+          {
+            "map": "lorule1F",
+            "x": 115,
+            "y": 106
+          }
+        ],
+        "sections": [
+          {
+            "ref": "Lorule Overworld/Lorule Castle/1F Right Wall"
+          }
+        ]
+      },
+      {
+        "name": "Lorule Castle",
+        "map_locations": [
+          {
+            "map": "lorule2F",
+            "x": 133,
+            "y": 108
+          }
+        ],
+        "sections": [
+          {
+            "ref": "Lorule Overworld/Lorule Castle/2F East Room"
+          }
+        ]
+      },
+      {
+        "name": "Lorule Castle",
+        "map_locations": [
+          {
+            "map": "lorule2F",
+            "x": 133,
+            "y": 140
+          }
+        ],
+        "sections": [
+          {
+            "ref": "Lorule Overworld/Lorule Castle/2F Dark Bridge"
+          }
+        ]
+      },
+      {
+        "name": "Lorule Castle",
+        "map_locations": [
+          {
+            "map": "lorule2F",
+            "x": 78,
+            "y": 114
+          }
+        ],
+        "sections": [
+          {
+            "ref": "Lorule Overworld/Lorule Castle/2F West Wall"
+          }
+        ]
+      },
+      {
+        "name": "Lorule Castle",
+        "map_locations": [
+          {
+            "map": "lorule4F",
+            "x": 97,
+            "y": 105
+          }
+        ],
+        "sections": [
+          {
+            "ref": "Lorule Overworld/Lorule Castle/4F Torches"
+          }
+        ]
+      },
+      {
+        "name": "Lorule Castle",
+        "map_locations": [
+          {
+            "map": "lorule4F",
+            "x": 97,
+            "y": 125
+          }
+        ],
+        "sections": [
+          {
+            "ref": "Lorule Overworld/Lorule Castle/4F Big Chest"
+          }
+        ]
+      },
+      // Bomb Trial
+      {
+        "name": "Lorule Castle",
+        "map_locations": [
+          {
+            "map": "lorule3F",
+            "x": 68,
+            "y": 64
+          }
+        ],
+        "sections": [
+          {
+            "ref": "Lorule Overworld/Lorule Castle/3F Bomb Trial 1"
+          }
+        ]
+      },
+      {
+        "name": "Lorule Castle",
+        "map_locations": [
+          {
+            "map": "lorule3F",
+            "x": 57,
+            "y": 26
+          }
+        ],
+        "sections": [
+          {
+            "ref": "Lorule Overworld/Lorule Castle/3F Bomb Trial 2"
+          }
+        ]
+      },
+      // Ball Trial
+      {
+        "name": "Lorule Castle",
+        "map_locations": [
+          {
+            "map": "lorule3F",
+            "x": 108,
+            "y": 44
+          }
+        ],
+        "sections": [
+          {
+            "ref": "Lorule Overworld/Lorule Castle/3F Ball Trial 1"
+          }
+        ]
+      },
+      {
+        "name": "Lorule Castle",
+        "map_locations": [
+          {
+            "map": "lorule3F",
+            "x": 139,
+            "y": 36
+          }
+        ],
+        "sections": [
+          {
+            "ref": "Lorule Overworld/Lorule Castle/3F Ball Trial 2"
+          }
+        ]
+      },
+      // Lamp Trial
+      {
+        "name": "Lorule Castle",
+        "map_locations": [
+          {
+            "map": "lorule4F",
+            "x": 65,
+            "y": 35
+          }
+        ],
+        "sections": [
+          {
+            "ref": "Lorule Overworld/Lorule Castle/4F Lamp Trial"
+          }
+        ]
+      },
+      // Hookshot Trial
+      {
+        "name": "Lorule Castle",
+        "map_locations": [
+          {
+            "map": "lorule4F",
+            "x": 110,
+            "y": 58
+          }
+        ],
+        "sections": [
+          {
+            "ref": "Lorule Overworld/Lorule Castle/4F Hookshot Trial 2"
+          }
+        ]
+      },
+      {
+        "name": "Lorule Castle",
+        "map_locations": [
+          {
+            "map": "lorule4F",
+            "x": 140,
+            "y": 47
+          }
+        ],
+        "sections": [
+          {
+            "ref": "Lorule Overworld/Lorule Castle/4F Hookshot Trial 1"
+          }
+        ]
+      },
+      {
+        "name": "Throne Room",
+        "map_locations": [
+          {
+            "map": "throneRoom",
+            "x": 89,
+            "y": 79
+          }
+        ],
+        "sections": [
+          {
+            "ref": "Lorule Overworld/Throne Room/Zelda"
+          }
+        ]
+      },
+      {
+        "name": "Sacred Realm",
+        "color": "#ffdf4f",
+        "map_locations": [
+          {
+            "map": "throneRoom",
+            "x": 89,
+            "y": 29,
+            "size": 24
+          }
+        ],
+        "sections": [
+          {
+            "name": "Triforce",
+            "access_rules": [
+              "$zelda, merge, bow_of_light"
+            ],
+            "hosted_item": "triforce_full"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Throne Room",
+    "sections": [
+      {
+        "ref": "Lorule Overworld/Throne Room/Zelda"
+      },
+      {
+        "ref": "Lorule Overworld/Throne Room/Triforce"
+      }
+    ]
+  },
+  {
+    "name": "Lorule Castle Crack",
+    "map_locations": [
+      {
+        "map": "lorule",
+        "x": 1024,
+        "y": 792,
+        "badge_size": 40
+      }
+    ],
+    "sections": [
+      {
+        "name": "Lorule Castle",
+        "hosted_item": "crack_lc",
+        "access_rules": [
+          "crack_lc",
+          "{$inspect_crack_lorule}",
+          "merge, quake, $lc_trials"
+        ],
+        "visibility_rules": [
+          "cracksanity"
+        ]
+      }
+    ]
+  }
+]

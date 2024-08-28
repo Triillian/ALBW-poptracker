@@ -1,0 +1,37 @@
+{
+  "lorule_castle": {
+    "type": "container",
+    "content": [
+      {
+        "type": "array",
+        "orientation": "vertical",
+        "content": [
+          {
+            "type": "map",
+            "maps": [
+              "lorule3F",
+              "throneRoom"
+            ]
+          },
+          {
+            "type": "map",
+            "maps": [
+              "lorule2F",
+              "lorule5F"
+            ]
+          },
+          {
+            "type": "map",
+            "maps": [
+              "lorule1F",
+              "lorule4F"
+            ]
+          },
+          {
+            "type": "container"
+          }
+        ]
+      }
+    ]
+  }
+}

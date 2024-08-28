@@ -1,0 +1,268 @@
+[
+  {
+    "name": "Desert Palace",
+    "color": "#2d3bb7",
+    "chest_unopened_img": "images/checks/chest_small_unopened.png",
+    "chest_opened_img": "images/checks/chest_small_opened.png",
+    "access_rules": [
+      "$access_desert_palace, merge",
+      "[glitched], $glitched_access_desert_palace, merge"
+    ],
+    "children": [
+      {
+        "name": "Desert Palace",
+        "map_locations": [
+          {
+            "map": "desert1F",
+            "x": 91,
+            "y": 98
+          }
+        ],
+        "sections": [
+          {
+            "ref": "Hyrule Overworld/Desert Palace/1F Entrance"
+          }
+        ]
+      },
+      {
+        "name": "Desert Palace",
+        "map_locations": [
+          {
+            "map": "desert1F",
+            "x": 46,
+            "y": 54
+          }
+        ],
+        "sections": [
+          {
+            "ref": "Hyrule Overworld/Desert Palace/1F Sand Island"
+          }
+        ]
+      },
+      {
+        "name": "Desert Palace",
+        "map_locations": [
+          {
+            "map": "desert1F",
+            "x": 41,
+            "y": 82
+          }
+        ],
+        "sections": [
+          {
+            "ref": "Hyrule Overworld/Desert Palace/1F West Middle"
+          }
+        ]
+      },
+      {
+        "name": "Desert Palace",
+        "map_locations": [
+          {
+            "map": "desert1F",
+            "x": 54,
+            "y": 26
+          }
+        ],
+        "sections": [
+          {
+            "ref": "Hyrule Overworld/Desert Palace/1F Sand Controls"
+          }
+        ]
+      },
+      {
+        "name": "Desert Palace",
+        "map_locations": [
+          {
+            "map": "desert1F",
+            "x": 54,
+            "y": 136
+          }
+        ],
+        "sections": [
+          {
+            "ref": "Hyrule Overworld/Desert Palace/1F Miniboss Room"
+          }
+        ]
+      },
+      {
+        "name": "Desert Palace",
+        "map_locations": [
+          {
+            "map": "desert1F",
+            "x": 110,
+            "y": 27
+          }
+        ],
+        "sections": [
+          {
+            "ref": "Hyrule Overworld/Desert Palace/1F Big Chest"
+          }
+        ]
+      },
+      {
+        "name": "Desert Palace",
+        "map_locations": [
+          {
+            "map": "desert2F",
+            "x": 98,
+            "y": 61
+          }
+        ],
+        "sections": [
+          {
+            "ref": "Hyrule Overworld/Desert Palace/2F Center Room"
+          }
+        ]
+      },
+      {
+        "name": "Desert Palace",
+        "map_locations": [
+          {
+            "map": "desert2F",
+            "x": 68,
+            "y": 54
+          }
+        ],
+        "sections": [
+          {
+            "ref": "Hyrule Overworld/Desert Palace/2F W Big Rock"
+          }
+        ]
+      },
+      {
+        "name": "Desert Palace",
+        "map_locations": [
+          {
+            "map": "desert2F",
+            "x": 113,
+            "y": 54
+          }
+        ],
+        "sections": [
+          {
+            "ref": "Hyrule Overworld/Desert Palace/2F E Big Rock"
+          }
+        ]
+      },
+      {
+        "name": "Desert Palace",
+        "map_locations": [
+          {
+            "map": "desert2F",
+            "x": 148,
+            "y": 76
+          }
+        ],
+        "sections": [
+          {
+            "ref": "Hyrule Overworld/Desert Palace/2F Big Chest"
+          }
+        ]
+      },
+      {
+        "name": "Desert Palace",
+        "map_locations": [
+          {
+            "map": "desert2F",
+            "x": 148,
+            "y": 88
+          }
+        ],
+        "sections": [
+          {
+            "ref": "Hyrule Overworld/Desert Palace/2F Below Big Chest"
+          }
+        ]
+      },
+      {
+        "name": "Desert Palace",
+        "map_locations": [
+          {
+            "map": "desert2F",
+            "x": 148,
+            "y": 33
+          }
+        ],
+        "sections": [
+          {
+            "ref": "Hyrule Overworld/Desert Palace/2F NE Big Rock"
+          }
+        ]
+      },
+      {
+        "name": "Desert Palace",
+        "map_locations": [
+          {
+            "map": "desert2F",
+            "x": 45,
+            "y": 89
+          }
+        ],
+        "sections": [
+          {
+            "ref": "Hyrule Overworld/Desert Palace/2F Leever Room"
+          }
+        ]
+      },
+      {
+        "name": "Desert Palace",
+        "map_locations": [
+          {
+            "map": "desert3F",
+            "x": 33,
+            "y": 24
+          }
+        ],
+        "sections": [
+          {
+            "ref": "Hyrule Overworld/Desert Palace/3F Behind Sand"
+          }
+        ]
+      },
+      {
+        "name": "Desert Palace",
+        "map_locations": [
+          {
+            "map": "desert3F",
+            "x": 100,
+            "y": 88
+          }
+        ],
+        "sections": [
+          {
+            "ref": "Hyrule Overworld/Desert Palace/3F Gimos Chest"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Misery Mire",
+    "color": "#2d3bb7",
+    "chest_unopened_img": "images/checks/chest_small_unopened.png",
+    "chest_opened_img": "images/checks/chest_small_opened.png",
+    "access_rules": [
+      "merge"
+    ],
+    "children": [
+      {
+        "name": "Misery Mire",
+        "sections": [
+          {
+            "ref": "Lorule Overworld/Misery Mire Boss/Zaganaga"
+          },
+          {"name": "Pendant of Power", "hosted_item": "power", "access_rules": [ "not_cracksanity, merge, quake, srod, titansmitt, $bawbs, msword", "not_cracksanity, merge, quake, srod, titansmitt, $bawbs, [hard], $attack, $switch", "cracksanity, merge, crack_zaganaga, srod, msword", "cracksanity, merge, crack_zaganaga, srod, [hard], $attack", "[advanced], $advanced_misery_mire_oob, boots", "[advanced], $advanced_misery_mire_oob, srod, $attack", "[hell], $hell_misery_mire_oob, boots", "[hell], $hell_misery_mire_oob, srod, $attack", "[hell], $hell_misery_mire_oob, bow", "[hell], $hell_misery_mire_oob, msword" ], "visibility_rules": [ "label_power_dp" ]},
+          {"name": "Pendant of Wisdom", "hosted_item": "wisdom", "access_rules": ["not_cracksanity, merge, quake, srod, titansmitt, $bawbs, msword", "not_cracksanity, merge, quake, srod, titansmitt, $bawbs, [hard], $attack, $switch", "cracksanity, merge, crack_zaganaga, srod, msword", "cracksanity, merge, crack_zaganaga, srod, [hard], $attack", "[advanced], $advanced_misery_mire_oob, boots", "[advanced], $advanced_misery_mire_oob, srod, $attack", "[hell], $hell_misery_mire_oob, boots", "[hell], $hell_misery_mire_oob, srod, $attack", "[hell], $hell_misery_mire_oob, bow", "[hell], $hell_misery_mire_oob, msword"], "visibility_rules": ["label_wisdom_dp"]},
+          {"name": "Pendant of Courage", "hosted_item": "courage", "access_rules": ["not_cracksanity, merge, quake, srod, titansmitt, $bawbs, msword", "not_cracksanity, merge, quake, srod, titansmitt, $bawbs, [hard], $attack, $switch", "cracksanity, merge, crack_zaganaga, srod, msword", "cracksanity, merge, crack_zaganaga, srod, [hard], $attack", "[advanced], $advanced_misery_mire_oob, boots", "[advanced], $advanced_misery_mire_oob, srod, $attack", "[hell], $hell_misery_mire_oob, boots", "[hell], $hell_misery_mire_oob, srod, $attack", "[hell], $hell_misery_mire_oob, bow", "[hell], $hell_misery_mire_oob, msword"], "visibility_rules": ["label_courage_dp"]},
+          {"name": "Gulley", "hosted_item": "gulley", "access_rules": ["not_cracksanity, merge, quake, srod, titansmitt, $bawbs, msword", "not_cracksanity, merge, quake, srod, titansmitt, $bawbs, [hard], $attack, $switch", "cracksanity, merge, crack_zaganaga, srod, msword", "cracksanity, merge, crack_zaganaga, srod, [hard], $attack", "[advanced], $advanced_misery_mire_oob, boots", "[advanced], $advanced_misery_mire_oob, srod, $attack", "[hell], $hell_misery_mire_oob, boots", "[hell], $hell_misery_mire_oob, srod, $attack", "[hell], $hell_misery_mire_oob, bow", "[hell], $hell_misery_mire_oob, msword"], "visibility_rules": ["label_gulley_dp"]},
+          {"name": "Oren", "hosted_item": "oren", "access_rules": ["not_cracksanity, merge, quake, srod, titansmitt, $bawbs, msword", "not_cracksanity, merge, quake, srod, titansmitt, $bawbs, [hard], $attack, $switch", "cracksanity, merge, crack_zaganaga, srod, msword", "cracksanity, merge, crack_zaganaga, srod, [hard], $attack", "[advanced], $advanced_misery_mire_oob, boots", "[advanced], $advanced_misery_mire_oob, srod, $attack", "[hell], $hell_misery_mire_oob, boots", "[hell], $hell_misery_mire_oob, srod, $attack", "[hell], $hell_misery_mire_oob, bow", "[hell], $hell_misery_mire_oob, msword"], "visibility_rules": ["label_oren_dp"]},
+          {"name": "Seres", "hosted_item": "seres", "access_rules": ["not_cracksanity, merge, quake, srod, titansmitt, $bawbs, msword", "not_cracksanity, merge, quake, srod, titansmitt, $bawbs, [hard], $attack, $switch", "cracksanity, merge, crack_zaganaga, srod, msword", "cracksanity, merge, crack_zaganaga, srod, [hard], $attack", "[advanced], $advanced_misery_mire_oob, boots", "[advanced], $advanced_misery_mire_oob, srod, $attack", "[hell], $hell_misery_mire_oob, boots", "[hell], $hell_misery_mire_oob, srod, $attack", "[hell], $hell_misery_mire_oob, bow", "[hell], $hell_misery_mire_oob, msword"], "visibility_rules": ["label_seres_dp"]},
+          {"name": "Osfala", "hosted_item": "osfala", "access_rules": ["not_cracksanity, merge, quake, srod, titansmitt, $bawbs, msword", "not_cracksanity, merge, quake, srod, titansmitt, $bawbs, [hard], $attack, $switch", "cracksanity, merge, crack_zaganaga, srod, msword", "cracksanity, merge, crack_zaganaga, srod, [hard], $attack", "[advanced], $advanced_misery_mire_oob, boots", "[advanced], $advanced_misery_mire_oob, srod, $attack", "[hell], $hell_misery_mire_oob, boots", "[hell], $hell_misery_mire_oob, srod, $attack", "[hell], $hell_misery_mire_oob, bow", "[hell], $hell_misery_mire_oob, msword"], "visibility_rules": ["label_osfala_dp"]},
+          {"name": "Impa", "hosted_item": "impa", "access_rules": ["not_cracksanity, merge, quake, srod, titansmitt, $bawbs, msword", "not_cracksanity, merge, quake, srod, titansmitt, $bawbs, [hard], $attack, $switch", "cracksanity, merge, crack_zaganaga, srod, msword", "cracksanity, merge, crack_zaganaga, srod, [hard], $attack", "[advanced], $advanced_misery_mire_oob, boots", "[advanced], $advanced_misery_mire_oob, srod, $attack", "[hell], $hell_misery_mire_oob, boots", "[hell], $hell_misery_mire_oob, srod, $attack", "[hell], $hell_misery_mire_oob, bow", "[hell], $hell_misery_mire_oob, msword"], "visibility_rules": ["label_impa_dp"]},
+          {"name": "Irene", "hosted_item": "irene", "access_rules": ["not_cracksanity, merge, quake, srod, titansmitt, $bawbs, msword", "not_cracksanity, merge, quake, srod, titansmitt, $bawbs, [hard], $attack, $switch", "cracksanity, merge, crack_zaganaga, srod, msword", "cracksanity, merge, crack_zaganaga, srod, [hard], $attack", "[advanced], $advanced_misery_mire_oob, boots", "[advanced], $advanced_misery_mire_oob, srod, $attack", "[hell], $hell_misery_mire_oob, boots", "[hell], $hell_misery_mire_oob, srod, $attack", "[hell], $hell_misery_mire_oob, bow", "[hell], $hell_misery_mire_oob, msword"], "visibility_rules": ["label_irene_dp"]},
+          {"name": "Rosso", "hosted_item": "rosso", "access_rules": ["not_cracksanity, merge, quake, srod, titansmitt, $bawbs, msword", "not_cracksanity, merge, quake, srod, titansmitt, $bawbs, [hard], $attack, $switch", "cracksanity, merge, crack_zaganaga, srod, msword", "cracksanity, merge, crack_zaganaga, srod, [hard], $attack", "[advanced], $advanced_misery_mire_oob, boots", "[advanced], $advanced_misery_mire_oob, srod, $attack", "[hell], $hell_misery_mire_oob, boots", "[hell], $hell_misery_mire_oob, srod, $attack", "[hell], $hell_misery_mire_oob, bow", "[hell], $hell_misery_mire_oob, msword"], "visibility_rules": ["label_rosso_dp"]}
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,249 @@
+[
+  {
+    "name": "Dark Palace",
+    "color": "#41c341",
+    "chest_unopened_img": "images/checks/chest_small_unopened.png",
+    "chest_opened_img": "images/checks/chest_small_opened.png",
+    "access_rules": [
+      "$access_dark_ruins, bombs",
+      "[glitched], $glitched_access_dark_ruins, bombs",
+      "[advanced], $advanced_access_dark_ruins, bombs",
+      "[hell], $hell_access_dark_ruins, bombs"
+    ],
+    "children": [
+      {
+        "name": "Dark Palace",
+        "map_locations": [
+          {
+            "map": "dark1F",
+            "x": 106,
+            "y": 103
+          }
+        ],
+        "sections": [
+          {
+            "ref": "Lorule Overworld/Dark Palace/1F Right Pit"
+          }
+        ]
+      },
+      {
+        "name": "Dark Palace",
+        "map_locations": [
+          {
+            "map": "dark1F",
+            "x": 71,
+            "y": 103
+          }
+        ],
+        "sections": [
+          {
+            "ref": "Lorule Overworld/Dark Palace/1F Left Pit"
+          }
+        ]
+      },
+      {
+        "name": "Dark Palace",
+        "map_locations": [
+          {
+            "map": "dark1F",
+            "x": 36,
+            "y": 59
+          }
+        ],
+        "sections": [
+          {
+            "ref": "Lorule Overworld/Dark Palace/1F Switches Chest"
+          }
+        ]
+      },
+      {
+        "name": "Dark Palace",
+        "map_locations": [
+          {
+            "map": "dark1F",
+            "x": 141,
+            "y": 91
+          }
+        ],
+        "sections": [
+          {
+            "ref": "Lorule Overworld/Dark Palace/1F Hidden Upper"
+          }
+        ]
+      },
+      {
+        "name": "Dark Palace",
+        "map_locations": [
+          {
+            "map": "dark1F",
+            "x": 124,
+            "y": 82
+          }
+        ],
+        "sections": [
+          {
+            "ref": "Lorule Overworld/Dark Palace/1F Hidden Lower"
+          }
+        ]
+      },
+      {
+        "name": "Dark Palace",
+        "map_locations": [
+          {
+            "map": "dark1F",
+            "x": 109,
+            "y": 47
+          }
+        ],
+        "sections": [
+          {
+            "ref": "Lorule Overworld/Dark Palace/1F Fall Chest"
+          }
+        ]
+      },
+      {
+        "name": "Dark Palace",
+        "map_locations": [
+          {
+            "map": "dark2F",
+            "x": 88,
+            "y": 65
+          }
+        ],
+        "sections": [
+          {
+            "ref": "Lorule Overworld/Dark Palace/2F Big Chest"
+          }
+        ]
+      },
+      {
+        "name": "Dark Palace",
+        "map_locations": [
+          {
+            "map": "dark2F",
+            "x": 119,
+            "y": 98
+          }
+        ],
+        "sections": [
+          {
+            "ref": "Lorule Overworld/Dark Palace/2F East Chest"
+          }
+        ]
+      },
+      {
+        "name": "Dark Palace",
+        "map_locations": [
+          {
+            "map": "darkB1",
+            "x": 98,
+            "y": 42
+          }
+        ],
+        "sections": [
+          {
+            "ref": "Lorule Overworld/Dark Palace/B1 Center Fall"
+          }
+        ]
+      },
+      {
+        "name": "Dark Palace",
+        "map_locations": [
+          {
+            "map": "darkB1",
+            "x": 149,
+            "y": 70
+          }
+        ],
+        "sections": [
+          {
+            "ref": "Lorule Overworld/Dark Palace/B1 East Fall"
+          }
+        ]
+      },
+      {
+        "name": "Dark Palace",
+        "map_locations": [
+          {
+            "map": "darkB1",
+            "x": 149,
+            "y": 31
+          }
+        ],
+        "sections": [
+          {
+            "ref": "Lorule Overworld/Dark Palace/B1 North East"
+          }
+        ]
+      },
+      {
+        "name": "Dark Palace",
+        "map_locations": [
+          {
+            "map": "darkB1",
+            "x": 32,
+            "y": 71
+          }
+        ],
+        "sections": [
+          {
+            "ref": "Lorule Overworld/Dark Palace/B1 Maze Room"
+          }
+        ]
+      },
+      {
+        "name": "Dark Palace",
+        "map_locations": [
+          {
+            "map": "darkB1",
+            "x": 44,
+            "y": 89
+          }
+        ],
+        "sections": [
+          {
+            "ref": "Lorule Overworld/Dark Palace/B1 Big Chest"
+          }
+        ]
+      },
+      {
+        "name": "Dark Palace",
+        "map_locations": [
+          {
+            "map": "darkB1",
+            "x": 88,
+            "y": 58,
+            "size": 20
+          }
+        ],
+        "sections": [
+          {"name": "Pendant of Power", "hosted_item": "power", "access_rules": ["bombs, $fire"], "visibility_rules": ["label_power_pd"]},
+          {"name": "Pendant of Wisdom", "hosted_item": "wisdom", "access_rules": ["bombs, $fire"], "visibility_rules": ["label_wisdom_pd"]},
+          {"name": "Pendant of Courage", "hosted_item": "courage", "access_rules": ["bombs, $fire"], "visibility_rules": ["label_courage_pd"]},
+          {"name": "Gulley", "hosted_item": "gulley", "access_rules": ["bombs, $fire"], "visibility_rules": ["label_gulley_pd"]},
+          {"name": "Oren", "hosted_item": "oren", "access_rules": ["bombs, $fire"], "visibility_rules": ["label_oren_pd"]},
+          {"name": "Seres", "hosted_item": "seres", "access_rules": ["bombs, $fire"], "visibility_rules": ["label_seres_pd"]},
+          {"name": "Osfala", "hosted_item": "osfala", "access_rules": ["bombs, $fire"], "visibility_rules": ["label_osfala_pd"]},
+          {"name": "Impa", "hosted_item": "impa", "access_rules": ["bombs, $fire"], "visibility_rules": ["label_impa_pd"]},
+          {"name": "Irene", "hosted_item": "irene", "access_rules": ["bombs, $fire"], "visibility_rules": ["label_irene_pd"]},
+          {"name": "Rosso", "hosted_item": "rosso", "access_rules": ["bombs, $fire"], "visibility_rules": ["label_rosso_pd"]}
+        ]
+      },
+      {
+        "name": "Dark Palace",
+        "map_locations": [
+          {
+            "map": "darkB1",
+            "x": 88,
+            "y": 68
+          }
+        ],
+        "sections": [
+          {
+            "ref": "Lorule Overworld/Dark Palace/Gemesaur King"
+          }
+        ]
+      }
+    ]
+  }    
+]

@@ -1,0 +1,34 @@
+{
+  "thieves": {
+    "type": "container",
+    "content": [
+      {
+        "type": "array",
+        "orientation": "vertical",
+        "content": [
+          {
+            "type": "map",
+            "maps": [
+              "", "thievesB1", ""
+            ]
+          },
+          {
+            "type": "map",
+            "maps": [
+              "", "thievesB2", ""
+            ]
+          },
+          {
+            "type": "map",
+            "maps": [
+              "", "thievesB3", ""
+            ]
+          },
+          {
+            "type": "container"
+          }
+        ]
+      }
+    ]
+  }
+}

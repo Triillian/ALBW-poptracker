@@ -1,0 +1,28 @@
+{
+  "skull": {
+    "type": "container",
+    "content": [
+      {
+        "type": "array",
+        "orientation": "vertical",
+        "content": [
+          {
+            "type": "map",
+            "maps": [
+              "", "skullB1", ""
+            ]
+          },
+          {
+            "type": "map",
+            "maps": [
+              "", "skullB2", ""
+            ]
+          },
+          {
+            "type": "container"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,75 @@
+[
+  // Pendants
+  {
+    "name": "Pendant of Power",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/prizes/pendant_power.png",
+    "codes": "pendant, power"
+  },
+  {
+    "name": "Pendant of Wisdom",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/prizes/pendant_wisdom.png",
+    "codes": "pendant, wisdom"
+  },
+  {
+    "name": "Pendant of Courage",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/prizes/pendant_courage.png",
+    "codes": "pendant, courage"
+  },
+
+  // Sages
+  {
+    "name": "Sage Gulley",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/prizes/sage_gulley.png",
+    "codes": "sage, gulley"
+  },
+  {
+    "name": "Sage Oren",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/prizes/sage_oren.png",
+    "codes": "sage, oren"
+  },
+  {
+    "name": "Sage Seres",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/prizes/sage_seres.png",
+    "codes": "sage, seres"
+  },
+  {
+    "name": "Sage Osfala",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/prizes/sage_osfala.png",
+    "codes": "sage, osfala"
+  },
+  {
+    "name": "Sage Impa",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/prizes/sage_impa.png",
+    "codes": "sage, impa"
+  },
+  {
+    "name": "Sage Irene",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/prizes/sage_irene.png",
+    "codes": "sage, irene"
+  },
+  {
+    "name": "Sage Rosso",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/prizes/sage_rosso.png",
+    "codes": "sage, rosso"
+  }
+]

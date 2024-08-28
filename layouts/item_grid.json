@@ -1,0 +1,77 @@
+{
+  "item_grid": {
+    "type": "container",
+    "orientation": "vertical",
+    "content": [
+      {
+        "type": "container",
+        "content": [
+          {
+            "type": "itemgrid",
+            "dropshadow": true,
+            "h_alignment": "center",
+            "item_size": "40",
+            "item_margin": "1",
+            "margin": "1,1,1,0",
+            "rows": [
+              [
+                "fsword",
+                "green_tunic",
+                "shield",
+                "lamp",
+                "bow",
+                "boomerang",
+                "hookshot"
+              ],
+              [
+                "merge",
+                "glove",
+                "boots",
+                "hammer",
+                "bombs",
+                "frod",
+                "irod"
+              ],
+              [
+                "smooth_gem",
+                "bee_badge",
+                "scroll",
+                "trod",
+                "srod",
+                "net",
+                "hint_glasses"
+              ],
+              [
+                "bell",
+                "maiamai",
+                "ore",
+                "bottle",
+                "premium_milk",
+                "foul",
+                "scoot"
+              ],
+              [
+                "quake",
+                "great_spin",
+                "wisdom",
+                "power",
+                "courage",
+                "",
+                "bow_of_light"
+              ],
+              [
+                "gulley",
+                "oren",
+                "seres",
+                "osfala",
+                "impa",
+                "irene",
+                "rosso"
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "tracker_capture_item":
+
+  {
+    "type": "container",
+    "orientation": "vertical",
+    "content": [
+      {
+        "type": "itemgrid",
+        "dropshadow": true,
+        "h_alignment": "center",
+        "item_size": "15",
+        "item_margin": "0,-2,19,19",
+        "rows": [
+          // Making an override?
+          // Move the great_spin to the same grid location as the Sword.
+          [
+            "great_spin",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        ]
+      },
+      {
+        "type": "itemgrid",
+        "dropshadow": true,
+        "h_alignment": "center",
+        "item_size": "32",
+        "item_margin": "1,1",
+        "margin": "1",
+        "rows": [
+          [
+            "fsword",
+            "green_tunic",
+            "shield",
+            "lamp",
+            "bow",
+            "boomerang",
+            "hookshot"
+          ],
+          [
+            "merge",
+            "glove",
+            "boots",
+            "hammer",
+            "bombs",
+            "frod",
+            "irod"
+          ],
+          [
+            "flippers",
+            "bee_badge",
+            "scroll",
+            "trod",
+            "srod",
+            "net",
+            "hint_glasses"
+          ],
+          [
+            "smooth_gem",
+            "maiamai_single",
+            "ore",
+
+            "bottles",
+            "bottle_trade_items",
+            "bottle_bee_golden",
+            "scoot"
+          ],
+          [
+            "bell",
+            "",
+            "compass",
+            "key",
+            "bigkey",
+            "",
+            "bow_of_light"
+          ],
+          [
+            "pouch",
+            "hp",
+            "hc",
+            "tail",
+            "horn",
+            "guts",
+            "foul"
+          ],
+          [
+            "rupee_green",
+            "rupee_blue",
+            "rupee_red",
+            "rupee_purple",
+            "rupee_silver",
+            "rupee_gold"
+          ]
+        ]
+      }
+    ]
+  }
+}

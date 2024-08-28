@@ -1,0 +1,187 @@
+[
+  {
+    "name": "Tower of Hera",
+    "color": "#FF0000",
+    "chest_unopened_img": "images/checks/chest_small_unopened.png",
+    "chest_opened_img": "images/checks/chest_small_opened.png",
+    "children": [
+      {
+        "name": "Tower of Hera",
+        "map_locations": [
+          {
+            "map": "hera1F",
+            "x": 82,
+            "y": 27
+          }
+        ],
+        "sections": [
+          {
+            "ref": "Hyrule Overworld/Tower of Hera/1F Window Chest"
+          }
+        ]
+      },
+      {
+        "name": "Tower of Hera",
+        "map_locations": [
+          {
+            "map": "hera1F",
+            "x": 93,
+            "y": 78
+          }
+        ],
+        "sections": [
+          {
+            "ref": "Hyrule Overworld/Tower of Hera/1F Center Chest"
+          }
+        ]
+      },
+      {
+        "name": "Tower of Hera",
+        "map_locations": [
+          {
+            "map": "hera3F",
+            "x": 93,
+            "y": 83
+          }
+        ],
+        "sections": [
+          {
+            "ref": "Hyrule Overworld/Tower of Hera/3F Center"
+          }
+        ]
+      },
+      {
+        "name": "Tower of Hera",
+        "map_locations": [
+          {
+            "map": "hera5F",
+            "x": 127,
+            "y": 96
+          }
+        ],
+        "sections": [
+          {
+            "ref": "Hyrule Overworld/Tower of Hera/5F Red|Blue Chest"
+          }
+        ]
+      },
+      {
+        "name": "Tower of Hera",
+        "map_locations": [
+          {
+            "map": "hera6F",
+            "x": 66,
+            "y": 58
+          }
+        ],
+        "sections": [
+          {
+            "ref": "Hyrule Overworld/Tower of Hera/6F Left Tiles"
+          }
+        ]
+      },
+      {
+        "name": "Tower of Hera",
+        "map_locations": [
+          {
+            "map": "hera6F",
+            "x": 116,
+            "y": 58
+          }
+        ],
+        "sections": [
+          {
+            "ref": "Hyrule Overworld/Tower of Hera/6F Right Tiles"
+          }
+        ]
+      },
+      {
+        "name": "Tower of Hera",
+        "map_locations": [
+          {
+            "map": "hera7F",
+            "x": 121,
+            "y": 135
+          }
+        ],
+        "sections": [
+          {
+            "ref": "Hyrule Overworld/Tower of Hera/7F Ledge Chest"
+          }
+        ]
+      },
+      {
+        "name": "Tower of Hera",
+        "map_locations": [
+          {
+            "map": "hera8F",
+            "x": 74,
+            "y": 65
+          }
+        ],
+        "sections": [
+          {
+            "ref": "Hyrule Overworld/Tower of Hera/8F Fairy Room"
+          }
+        ]
+      },
+      {
+        "name": "Tower of Hera",
+        "map_locations": [
+          {
+            "map": "hera11F",
+            "x": 126,
+            "y": 76
+          }
+        ],
+        "sections": [
+          {
+            "ref": "Hyrule Overworld/Tower of Hera/11F Big Chest"
+          }
+        ]
+      },
+      {
+        "name": "Tower of Hera",
+        "map_locations": [
+          {
+            "map": "hera13F",
+            "x": 93,
+            "y": 85
+          }
+        ],
+        "sections": [
+          {
+            "ref": "Hyrule Overworld/Tower of Hera/Moldorm"
+          }
+        ]
+      },
+      {
+        "name": "Tower of Hera",
+        "access_rules": [
+          "merge",
+          "[advanced], fsword, bombs, trod"
+        ],
+        "map_locations": [
+          {
+            "map": "hera13F",
+            "x": 93,
+            "y": 58,
+            "size": 24
+          }
+        ],
+        "sections": [
+          {"name": "Pendant of Power", "hosted_item": "power", "access_rules": ["merge", "[advanced], fsword, bombs, trod"], "visibility_rules": ["label_power_th"]},
+          {"name": "Pendant of Wisdom", "hosted_item": "wisdom", "access_rules": ["merge", "[advanced], fsword, bombs, trod"], "visibility_rules": ["label_wisdom_th"]},
+          {"name": "Pendant of Courage", "hosted_item": "courage", "access_rules": ["merge", "[advanced], fsword, bombs, trod"], "visibility_rules": ["label_courage_th"]},
+          {"name": "Gulley", "hosted_item": "gulley", "access_rules": ["merge", "[advanced], fsword, bombs, trod"], "visibility_rules": ["label_gulley_th"]},
+          {"name": "Oren", "hosted_item": "oren", "access_rules": ["merge", "[advanced], fsword, bombs, trod"], "visibility_rules": ["label_oren_th"]},
+          {"name": "Seres", "hosted_item": "seres", "access_rules": ["merge", "[advanced], fsword, bombs, trod"], "visibility_rules": ["label_seres_th"]},
+          {"name": "Osfala", "hosted_item": "osfala", "access_rules": ["merge", "[advanced], fsword, bombs, trod"], "visibility_rules": ["label_osfala_th"]},
+          {"name": "Impa", "hosted_item": "impa", "access_rules": ["merge", "[advanced], fsword, bombs, trod"], "visibility_rules": ["label_impa_th"]},
+          {"name": "Irene", "hosted_item": "irene", "access_rules": ["merge", "[advanced], fsword, bombs, trod"], "visibility_rules": ["label_irene_th"]},
+          {"name": "Rosso", "hosted_item": "rosso", "access_rules": ["merge", "[advanced], fsword, bombs, trod"], "visibility_rules": ["label_rosso_th"]}
+        ]
+      }
+    ]
+  }
+]

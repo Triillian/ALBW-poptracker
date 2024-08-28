@@ -1,0 +1,32 @@
+{
+  "tracker_settings": {
+    "type": "array",
+    "orientation": "vertical",
+    "content": [
+      {
+        "type": "itemgrid",
+        "dropshadow": true,
+        "item_size": "40",
+        "v_alignment": "top",
+        "rows": [
+          [
+            "logic",
+            "lc_requirement",
+            "trials_door_open",
+            "ped_requirement_3",
+            "cracksanity",
+            "weathervania"
+          ],
+          [
+            "progression_enemies",
+            "lampless",
+            "beeBoost_hide",
+            "nice_mode",
+            "csmc",
+            "maiamai_map"
+          ]
+        ]
+      }
+    ]
+  }
+}

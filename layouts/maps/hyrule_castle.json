@@ -1,0 +1,40 @@
+{
+  "hyrule_castle": {
+    "type": "container",
+    "content": [
+      {
+        "type": "array",
+        "orientation": "vertical",
+        "content": [
+          {
+            "type": "map",
+            "maps": [
+              "hyrule4F",
+              "hyrule7F",
+              "hyrule8F"
+            ]
+          },
+          {
+            "type": "map",
+            "maps": [
+              "hyrule3F",
+              "hyrule6F",
+              ""
+            ]
+          },
+          {
+            "type": "map",
+            "maps": [
+              "hyrule2F",
+              "hyrule5F",
+              ""
+            ]
+          },
+          {
+            "type": "container"
+          }
+        ]
+      }
+    ]
+  }
+}

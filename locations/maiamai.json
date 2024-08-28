@@ -1,0 +1,2435 @@
+[
+  {
+    "name": "Mother Maiamai",
+    "map_locations": [
+      {
+        "map": "hyrule",
+        "x": 1467,
+        "y": 1542,
+        "size": 64
+      }
+    ],
+    "always_allow_chest_manipulation": false,
+    "sections": [
+      {
+        "name": "Sign",
+        "hosted_item": "maiamai_sign"
+      },
+      {
+        "name": "Bow",
+        "clear_as_group": false,
+        "access_rules": [
+          "{bow}",
+          "bow, $canUpgradeItem",
+          "maiamai_bow"
+        ],
+        "hosted_item": "maiamai_bow",
+        "capture_item": true
+      },
+      {
+        "name": "Boomerang",
+        "access_rules": [
+          "{boomerang}",
+          "boomerang, $canUpgradeItem",
+          "maiamai_boomerang"
+        ],
+        "hosted_item": "maiamai_boomerang",
+        "capture_item": true
+      },
+      {
+        "name": "Hookshot",
+        "access_rules": [
+          "{hookshot}",
+          "hookshot, $canUpgradeItem",
+          "maiamai_hookshot"
+        ],
+        "hosted_item": "maiamai_hookshot",
+        "capture_item": true
+      },
+      {
+        "name": "Hammer",
+        "access_rules": [
+          "{hammer}",
+          "hammer, $canUpgradeItem",
+          "maiamai_hammer"
+        ],
+        "hosted_item": "maiamai_hammer",
+        "capture_item": true
+      },
+      {
+        "name": "Bombs",
+        "access_rules": [
+          "{bombs}",
+          "bombs, $canUpgradeItem",
+          "maiamai_bombs"
+        ],
+        "hosted_item": "maiamai_bombs",
+        "capture_item": true
+      },
+      {
+        "name": "Fire Rod",
+        "access_rules": [
+          "{frod}",
+          "frod, $canUpgradeItem",
+          "maiamai_fire_rod"
+        ],
+        "hosted_item": "maiamai_fire_rod",
+        "capture_item": true
+      },
+      {
+        "name": "Ice Rod",
+        "access_rules": [
+          "{irod}",
+          "irod, $canUpgradeItem",
+          "maiamai_ice_rod"
+        ],
+        "hosted_item": "maiamai_ice_rod",
+        "capture_item": true
+      },
+      {
+        "name": "Tornado Rod",
+        "access_rules": [
+          "{trod}",
+          "trod, $canUpgradeItem",
+          "maiamai_tornado_rod"
+        ],
+        "hosted_item": "maiamai_tornado_rod",
+        "capture_item": true
+      },
+      {
+        "name": "Sand Rod",
+        "access_rules": [
+          "{srod}",
+          "srod, $canUpgradeItem",
+          "maiamai_sand_rod"
+        ],
+        "hosted_item": "maiamai_sand_rod",
+        "capture_item": true
+      },
+      {
+        "name": "100 Maiamai",
+        "chest_unopened_img": "images/checks/chest_small_unopened.png",
+        "chest_opened_img": "images/checks/chest_small_opened.png",
+        "access_rules": [
+          "maiamai_100, maiamai_bow, maiamai_boomerang, maiamai_hookshot, maiamai_hammer, maiamai_bombs, maiamai_fire_rod, maiamai_ice_rod, maiamai_tornado_rod, maiamai_sand_rod"
+        ],
+        "item_count": 1
+      }
+    ]
+  },
+  {
+    "name": "Hyrule Maiamai",
+    "chest_unopened_img": "images/items/maiamai.png",
+    "chest_opened_img": "images/items/maiamai_opened.png",
+    "children": [
+      // Lost Woods Area - 8
+      {
+        "name": "Maiamai 1",
+        "map_locations": [
+          {
+            "map": "hyrule",
+            "x": 410,
+            "y": 672,
+            "size": 48
+          }
+        ],
+        "sections": [
+          {
+            "name": "Stuck to Tent",
+            "item_count": 1,
+            //"capture_item": true,
+            "visibility_rules": [
+              "maiamai_map"
+            ],
+            "access_rules": [
+              //"{}",
+              "merge"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Maiamai 2",
+        "map_locations": [
+          {
+            "map": "hyrule",
+            "x": 625,
+            "y": 704,
+            "size": 48
+          }
+        ],
+        "sections": [
+          {
+            "name": "Small Pond",
+            "item_count": 1,
+            //"capture_item": true,
+            "visibility_rules": [
+              "maiamai_map"
+            ],
+            "access_rules": [
+              //"{}",
+              "flippers"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Maiamai 3",
+        "map_locations": [
+          {
+            "map": "hyrule",
+            "x": 711,
+            "y": 255,
+            "size": 48
+          }
+        ],
+        "sections": [
+          {
+            "name": "Stuck to Nearby Wall",
+            "item_count": 1,
+            //"capture_item": true,
+            "visibility_rules": [
+              "maiamai_map"
+            ],
+            "access_rules": [
+              //"{}",
+              "merge"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Maiamai 4",
+        "map_locations": [
+          {
+            "map": "hyrule",
+            "x": 350,
+            "y": 183,
+            "size": 48
+          }
+        ],
+        "sections": [
+          {
+            "name": "Under Rock",
+            "item_count": 1,
+            //"capture_item": true,
+            "visibility_rules": [
+              "maiamai_map"
+            ],
+            "access_rules": [
+              "power_glove"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Maiamai 5",
+        "map_locations": [
+          {
+            "map": "hyrule",
+            "x": 320,
+            "y": 352,
+            "size": 48
+          }
+        ],
+        "sections": [
+          {
+            "name": "Dash Tree",
+            "item_count": 1,
+            //"capture_item": true,
+            "visibility_rules": [
+              "maiamai_map"
+            ],
+            "access_rules": [
+              //"{}",
+              "boots"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Maiamai 6",
+        "map_locations": [
+          {
+            "map": "hyrule",
+            "x": 98,
+            "y": 189,
+            "size": 48
+          }
+        ],
+        "sections": [
+          {
+            "name": "Under Bush",
+            "item_count": 1,
+            //"capture_item": true,
+            "visibility_rules": [
+              "maiamai_map"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Maiamai 7",
+        "map_locations": [
+          {
+            "map": "hyrule",
+            "x": 226,
+            "y": 710,
+            "size": 48
+          }
+        ],
+        "sections": [
+          {
+            "name": "Lost Woods Path Rock",
+            "item_count": 1,
+            //"capture_item": true,
+            "visibility_rules": [
+              "maiamai_map"
+            ],
+            "access_rules": [
+              "titansmitt",
+              "power_glove, hammer",
+              "[glitched], power_glove, hookshot",
+              "[glitched], power_glove, boomerang, $escape"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Maiamai 8",
+        "map_locations": [
+          {
+            "map": "hyrule",
+            "x": 730,
+            "y": 333,
+            "size": 48
+          }
+        ],
+        "sections": [
+          {
+            "name": "Big Rock Exit",
+            "item_count": 1,
+            //"capture_item": true,
+            "visibility_rules": [
+              "maiamai_map"
+            ],
+            "access_rules": [
+              //"{}",
+              "merge, titansmitt"
+            ]
+          }
+        ]
+      },
+      // Sanctuary Area - 7
+      {
+        "name": "Maiamai 9",
+        "map_locations": [
+          {
+            "map": "hyrule",
+            "x": 859,
+            "y": 696,
+            "size": 48
+          }
+        ],
+        "sections": [
+          {
+            "name": "Stuck to Nearby Wall",
+            "item_count": 1,
+            //"capture_item": true,
+            "visibility_rules": [
+              "maiamai_map"
+            ],
+            "access_rules": [
+              //"{}",
+              "merge"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Maiamai 10",
+        "map_locations": [
+          {
+            "map": "hyrule",
+            "x": 1600,
+            "y": 677,
+            "size": 48
+          }
+        ],
+        "sections": [
+          {
+            "name": "Stuck to Inside Wall",
+            "item_count": 1,
+            //"capture_item": true,
+            "visibility_rules": [
+              "maiamai_map"
+            ],
+            "access_rules": [
+              //"{}",
+              "merge"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Maiamai 11",
+        "map_locations": [
+          {
+            "map": "hyrule",
+            "x": 1789,
+            "y": 396,
+            "size": 48
+          }
+        ],
+        "sections": [
+          {
+            "name": "Submerged",
+            "item_count": 1,
+            //"capture_item": true,
+            "visibility_rules": [
+              "maiamai_map"
+            ],
+            "access_rules": [
+              //"{merge}",
+              //"{$beeBoost}",
+              "flippers, merge",
+              "[hell], flippers, $beeBoost"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Maiamai 12",
+        "map_locations": [
+          {
+            "map": "hyrule",
+            "x": 1889,
+            "y": 764,
+            "size": 48
+          }
+        ],
+        "sections": [
+          {
+            "name": "Stuck to South Wall",
+            "item_count": 1,
+            //"capture_item": true,
+            "visibility_rules": [
+              "maiamai_map"
+            ],
+            "access_rules": [
+              //"{merge}",
+              //"{hell, $beeBoost}",
+              "merge"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Maiamai 13",
+        "map_locations": [
+          {
+            "map": "hyrule",
+            "x": 1475,
+            "y": 559,
+            "size": 48
+          }
+        ],
+        "sections": [
+          {
+            "name": "Ledge Across the River",
+            "item_count": 1,
+            //"capture_item": true,
+            "visibility_rules": [
+              "maiamai_map"
+            ],
+            "access_rules": [
+              //"{}",
+              "merge, flippers",
+              "[advanced], merge, $fakeFlippers",
+              "[hell], merge, boots",
+              "[hell], merge, frod",
+              "[hell], merge, bombs"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Maiamai 14",
+        "map_locations": [
+          {
+            "map": "hyrule",
+            "x": 1407,
+            "y": 910,
+            "size": 48
+          }
+        ],
+        "sections": [
+          {
+            "name": "Beneath the Bridge",
+            "item_count": 1,
+            //"capture_item": true,
+            "visibility_rules": [
+              "maiamai_map"
+            ],
+            "access_rules": [
+              //"{}",
+              "flippers",
+              "[advanced], $fakeFlippers",
+              "[hell], boots"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Maiamai 15",
+        "map_locations": [
+          {
+            "map": "hyrule",
+            "x": 1112,
+            "y": 579,
+            "size": 48
+          }
+        ],
+        "sections": [
+          {
+            "name": "High Wall",
+            "item_count": 1,
+            //"capture_item": true,
+            "access_rules": [
+              //"{}",
+              "merge, crack_graveyard",
+              "not_cracksanity, merge, quake, crack_graveyard_lorule"
+            ],
+            "visibility_rules": [
+              "maiamai_map"
+            ]
+          }
+        ]
+      },
+      // Kakariko Village - 5
+      {
+        "name": "Maiamai 16",
+        "map_locations": [
+          {
+            "map": "hyrule",
+            "x": 514,
+            "y": 949,
+            "size": 48
+          }
+        ],
+        "sections": [
+          {
+            "name": "Under a Bush",
+            "item_count": 1,
+            //"capture_item": true,
+            "visibility_rules": [
+              "maiamai_map"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Maiamai 17",
+        "map_locations": [
+          {
+            "map": "hyrule",
+            "x": 210,
+            "y": 1186,
+            "size": 48
+          }
+        ],
+        "sections": [
+          {
+            "name": "Buried in the Sand",
+            "item_count": 1,
+            //"capture_item": true,
+            "visibility_rules": [
+              "maiamai_map"
+            ],
+            "access_rules": [
+              "srod"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Maiamai 18",
+        "map_locations": [
+          {
+            "map": "hyrule",
+            "x": 450,
+            "y": 1362,
+            "size": 48
+          }
+        ],
+        "sections": [
+          {
+            "name": "Dash Tree",
+            "item_count": 1,
+            //"capture_item": true,
+            "visibility_rules": [
+              "maiamai_map"
+            ],
+            "access_rules": [
+              "boots"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Maiamai 19",
+        "map_locations": [
+          {
+            "map": "hyrule",
+            "x": 135,
+            "y": 1480,
+            "size": 48
+          }
+        ],
+        "sections": [
+          {
+            "name": "South Wall",
+            "item_count": 1,
+            //"capture_item": true,
+            "visibility_rules": [
+              "maiamai_map"
+            ],
+            "access_rules": [
+              //"{}",
+              "merge"
+            ]
+          }
+        ]
+      },
+      // Hyrule Castle Area - 8
+      {
+        "name": "Maiamai 20",
+        "map_locations": [
+          {
+            "map": "hyrule",
+            "x": 845,
+            "y": 839,
+            "size": 48
+          }
+        ],
+        "sections": [
+          {
+            "name": "Dash Tree",
+            "item_count": 1,
+            //"capture_item": true,
+            "visibility_rules": [
+              "maiamai_map"
+            ],
+            "access_rules": [
+              "boots"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Maiamai 21",
+        "map_locations": [
+          {
+            "map": "hyrule",
+            "x": 849,
+            "y": 1236,
+            "size": 48
+          }
+        ],
+        "sections": [
+          {
+            "name": "Wind Tiles",
+            "item_count": 1,
+            //"capture_item": true,
+            "visibility_rules": [
+              "maiamai_map"
+            ],
+            "access_rules": [
+              "trod"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Maiamai 22",
+        "map_locations": [
+          {
+            "map": "hyrule",
+            "x": 907,
+            "y": 1335,
+            "size": 48
+          }
+        ],
+        "sections": [
+          {
+            "name": "Dash Tree",
+            "item_count": 1,
+            //"capture_item": true,
+            "visibility_rules": [
+              "maiamai_map"
+            ],
+            "access_rules": [
+              "boots"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Maiamai 23",
+        "map_locations": [
+          {
+            "map": "hyrule",
+            "x": 660,
+            "y": 1285,
+            "size": 48
+          }
+        ],
+        "sections": [
+          {
+            "name": "Dash Tree",
+            "item_count": 1,
+            //"capture_item": true,
+            "visibility_rules": [
+              "maiamai_map"
+            ],
+            "access_rules": [
+              //"{}",
+              "boots"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Maiamai 24",
+        "map_locations": [
+          {
+            "map": "hyrule",
+            "x": 590,
+            "y": 1690,
+            "size": 48
+          }
+        ],
+        "sections": [
+          {
+            "name": "Under Big Rock",
+            "item_count": 1,
+            //"capture_item": true,
+            "visibility_rules": [
+              "maiamai_map"
+            ],
+            "access_rules": [
+              "merge, titansmitt"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Maiamai 25",
+        "map_locations": [
+          {
+            "map": "hyrule",
+            "x": 1081,
+            "y": 1353,
+            "size": 48
+          }
+        ],
+        "sections": [
+          {
+            "name": "Stuck to Back of House",
+            "item_count": 1,
+            //"capture_item": true,
+            "visibility_rules": [
+              "maiamai_map"
+            ],
+            "access_rules": [
+              //"{}",
+              "merge"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Maiamai 26",
+        "map_locations": [
+          {
+            "map": "hyrule",
+            "x": 589,
+            "y": 1082,
+            "size": 48
+          }
+        ],
+        "sections": [
+          {
+            "name": "Wind Tiles",
+            "item_count": 1,
+            //"capture_item": true,
+            "visibility_rules": [
+              "maiamai_map"
+            ],
+            "access_rules": [
+              "trod"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Maiamai 27",
+        "map_locations": [
+          {
+            "map": "hyrule",
+            "x": 640,
+            "y": 919,
+            "size": 48
+          }
+        ],
+        "sections": [
+          {
+            "name": "Dash Tree",
+            "item_count": 1,
+            //"capture_item": true,
+            "visibility_rules": [
+              "maiamai_map"
+            ],
+            "access_rules": [
+              "boots"
+            ]
+          }
+        ]
+      },
+      // Eastern Ruins - 6
+      {
+        "name": "Maiamai 99",
+        "map_locations": [
+          {
+            "map": "hyrule",
+            "x": 1471,
+            "y": 1174,
+            "size": 48
+          }
+        ],
+        "sections": [
+          {
+            "name": "Dash Rock",
+            "item_count": 1,
+            //"capture_item": true,
+            "visibility_rules": [
+              "maiamai_map"
+            ],
+            "access_rules": [
+              //"{}",
+              "boots"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Maiamai 28",
+        "map_locations": [
+          {
+            "map": "hyrule",
+            "x": 1473,
+            "y": 1421,
+            "size": 48
+          }
+        ],
+        "sections": [
+          {
+            "name": "In the River",
+            "item_count": 1,
+            //"capture_item": true,
+            "visibility_rules": [
+              "maiamai_map"
+            ],
+            "access_rules": [
+              //"{}",
+              "flippers",
+              "[advanced], $fakeFlippers",
+              "[hell], boots"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Maiamai 29",
+        "map_locations": [
+          {
+            "map": "hyrule",
+            "x": 1702,
+            "y": 1368,
+            "size": 48
+          }
+        ],
+        "sections": [
+          {
+            "name": "Dash into Rightmost Tree",
+            "item_count": 1,
+            //"capture_item": true,
+            "visibility_rules": [
+              "maiamai_map"
+            ],
+            "access_rules": [
+              "boots"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Maiamai 30",
+        "map_locations": [
+          {
+            "map": "hyrule",
+            "x": 1782,
+            "y": 1201,
+            "size": 48
+          }
+        ],
+        "sections": [
+          {
+            "name": "Yellow Dash Tree",
+            "item_count": 1,
+            //"capture_item": true,
+            "visibility_rules": [
+              "maiamai_map"
+            ],
+            "access_rules": [
+              //"{}",
+              "boots"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Maiamai 31",
+        "map_locations": [
+          {
+            "map": "hyrule",
+            "x": 1708,
+            "y": 1001,
+            "size": 48
+          }
+        ],
+        "sections": [
+          {
+            "name": "Square Ledge",
+            "item_count": 1,
+            //"capture_item": true,
+            "visibility_rules": [
+              "maiamai_map"
+            ],
+            "access_rules": [
+              //"{}",
+              "merge"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Maiamai 32",
+        "map_locations": [
+          {
+            "map": "hyrule",
+            "x": 1908,
+            "y": 1478,
+            "size": 48
+          }
+        ],
+        "sections": [
+          {
+            "name": "Under Big Rock",
+            "item_count": 1,
+            //"capture_item": true,
+            "visibility_rules": [
+              "maiamai_map"
+            ],
+            "access_rules": [
+              "titansmitt, merge"
+            ]
+          }
+        ]
+      },
+      // Desert - 3
+      {
+        "name": "Maiamai 33",
+        "map_locations": [
+          {
+            "map": "hyrule",
+            "x": 660,
+            "y": 1915,
+            "size": 48
+          }
+        ],
+        "sections": [
+          {
+            "name": "Under Big Rock",
+            "item_count": 1,
+            //"capture_item": true,
+            "visibility_rules": [
+              "maiamai_map"
+            ],
+            "access_rules": [
+              "titansmitt"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Maiamai 34",
+        "map_locations": [
+          {
+            "map": "hyrule",
+            "x": 323,
+            "y": 1679,
+            "size": 48
+          }
+        ],
+        "sections": [
+          {
+            "name": "Buried in the Desert",
+            "item_count": 1,
+            //"capture_item": true,
+            "visibility_rules": [
+              "maiamai_map"
+            ],
+            "access_rules": [
+              "$access_desert, srod"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Maiamai 35",
+        "map_locations": [
+          {
+            "map": "hyrule",
+            "x": 186,
+            "y": 1802,
+            "size": 48
+          }
+        ],
+        "sections": [
+          {
+            "name": "Buried outside Palace",
+            "item_count": 1,
+            //"capture_item": true,
+            "visibility_rules": [
+              "maiamai_map"
+            ],
+            "access_rules": [
+              "$access_desert_palace, srod",
+              "[glitched], $glitched_access_desert_palace, srod"
+            ]
+          }
+        ]
+      },
+      // Southern Ruins - 3
+      {
+        "name": "Maiamai 36",
+        "map_locations": [
+          {
+            "map": "hyrule",
+            "x": 1132,
+            "y": 1665,
+            "size": 48
+          }
+        ],
+        "sections": [
+          {
+            "name": "Pillars",
+            "item_count": 1,
+            //"capture_item": true,
+            "visibility_rules": [
+              "maiamai_map"
+            ],
+            "access_rules": [
+              //"{}",
+              "boots"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Maiamai 37",
+        "map_locations": [
+          {
+            "map": "hyrule",
+            "x": 1200,
+            "y": 1844,
+            "size": 48
+          }
+        ],
+        "sections": [
+          {
+            "name": "Bomb Cave",
+            "item_count": 1,
+            //"capture_item": true,
+            "visibility_rules": [
+              "maiamai_map"
+            ],
+            "access_rules": [
+              //"{bombs}",
+              "bombs, flippers"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Maiamai 38",
+        "map_locations": [
+          {
+            "map": "hyrule",
+            "x": 994,
+            "y": 1881,
+            "size": 48
+          }
+        ],
+        "sections": [
+          {
+            "name": "Submerged by Treasure Dungeon",
+            "item_count": 1,
+            //"capture_item": true,
+            "visibility_rules": [
+              "maiamai_map"
+            ],
+            "access_rules": [
+              //"{}",
+              "flippers"
+            ]
+          }
+        ]
+      },
+      // Lake Hylia - 5
+      {
+        "name": "Maiamai 39",
+        "map_locations": [
+          {
+            "map": "hyrule",
+            "x": 1451,
+            "y": 1526,
+            "size": 48
+          }
+        ],
+        "sections": [
+          {
+            "name": "Mother Maiamai's Cave",
+            "item_count": 1,
+            //"capture_item": true,
+            "visibility_rules": [
+              "maiamai_map"
+            ],
+            "access_rules": [
+              //"{}",
+              "merge"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Maiamai 40",
+        "map_locations": [
+          {
+            "map": "hyrule",
+            "x": 1644,
+            "y": 1685,
+            "size": 48
+          }
+        ],
+        "sections": [
+          {
+            "name": "House of Gales Wind Tile",
+            "item_count": 1,
+            //"capture_item": true,
+            "visibility_rules": [
+              "maiamai_map"
+            ],
+            "access_rules": [
+              "trod, flippers",
+              "trod, wv_gales, bell",
+              "[advanced], trod, $fakeFlippers",
+              "[advanced], trod, irod, hookshot"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Maiamai 41",
+        "map_locations": [
+          {
+            "map": "hyrule",
+            "x": 1591,
+            "y": 1844,
+            "size": 48
+          }
+        ],
+        "sections": [
+          {
+            "name": "Shallow Water Ring",
+            "item_count": 1,
+            //"capture_item": true,
+            "visibility_rules": [
+              "maiamai_map"
+            ],
+            "access_rules": [
+              //"{}",
+              "flippers"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Maiamai 42",
+        "map_locations": [
+          {
+            "map": "hyrule",
+            "x": 1824,
+            "y": 1837,
+            "size": 48
+          }
+        ],
+        "sections": [
+          {
+            "name": "SE River",
+            "item_count": 1,
+            //"capture_item": true,
+            "visibility_rules": [
+              "maiamai_map"
+            ],
+            "access_rules": [
+              //"{}",
+              "flippers",
+              "[advanced], $fakeFlippers",
+              "[hell], boots"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Maiamai 43",
+        "map_locations": [
+          {
+            "map": "hyrule",
+            "x": 1963,
+            "y": 1687,
+            "size": 48
+          }
+        ],
+        "sections": [
+          {
+            "name": "Under Big Rock",
+            "item_count": 1,
+            //"capture_item": true,
+            "visibility_rules": [
+              "maiamai_map"
+            ],
+            "access_rules": [
+              "titansmitt, merge"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Lorule Maiamai",
+    "chest_unopened_img": "images/items/maiamai.png",
+    "chest_opened_img": "images/items/maiamai_opened.png",
+    "children": [
+      {
+        // Skull Woods - 8
+        "name": "Skull Woods Region",
+        "access_rules": [
+          "$access_skull_woods_area"
+        ],
+        "children": [
+          {
+            "name": "Maiamai 49",
+            "map_locations": [
+              {
+                "map": "lorule",
+                "x": 289,
+                "y": 856,
+                "size": 48
+              }
+            ],
+            "sections": [
+              {
+                "name": "n-Shaped House Wall",
+                "item_count": 1,
+                "access_rules": [
+                  "merge"
+
+                ],
+                //"capture_item": true,
+                "visibility_rules": [
+                  "maiamai_map"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Maiamai 50",
+            "map_locations": [
+              {
+                "map": "lorule",
+                "x": 353,
+                "y": 752,
+                "size": 48
+              }
+            ],
+            "sections": [
+              {
+                "name": "Wall Near Entrance Sign",
+                "item_count": 1,
+                "access_rules": [
+                  "merge"
+                ],
+                //"capture_item": true,
+                "visibility_rules": [
+                  "maiamai_map"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Maiamai 51",
+            "map_locations": [
+              {
+                "map": "lorule",
+                "x": 679,
+                "y": 702,
+                "size": 48
+              }
+            ],
+            "sections": [
+              {
+                "name": "Dry Pond",
+                "item_count": 1,
+                "access_rules": [
+                  "merge"
+                ],
+                //"capture_item": true,
+                "visibility_rules": [
+                  "maiamai_map"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Maiamai 52",
+            "map_locations": [
+              {
+                "map": "lorule",
+                "x": 650,
+                "y": 472,
+                "size": 48
+              }
+            ],
+            "sections": [
+              {
+                "name": "Under V Tree Bushes",
+                "item_count": 1,
+                //"capture_item": true,
+                "visibility_rules": [
+                  "maiamai_map"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Maiamai 53",
+            "map_locations": [
+              {
+                "map": "lorule",
+                "x": 657,
+                "y": 231,
+                "size": 48
+              }
+            ],
+            "sections": [
+              {
+                "name": "Dark Cucco Shack Dash Tree",
+                "item_count": 1,
+                //"capture_item": true,
+                "visibility_rules": [
+                  "maiamai_map"
+                ],
+                "access_rules": [
+                  "boots"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Maiamai 54",
+            "map_locations": [
+              {
+                "map": "lorule",
+                "x": 117,
+                "y": 111,
+                "size": 48
+              }
+            ],
+            "sections": [
+              {
+                "name": "Under Skull",
+                "item_count": 1,
+                //"capture_item": true,
+                "visibility_rules": [
+                  "maiamai_map"
+                ],
+                "access_rules": [
+                  "fsword",
+                  "bow",
+                  "boomerang",
+                  "hookshot",
+                  "bombs",
+                  "frod",
+                  "irod",
+                  "hammer",
+                  "srod",
+                  "boots",
+                  "power_glove"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Maiamai 55",
+            "map_locations": [
+              {
+                "map": "lorule",
+                "x": 204,
+                "y": 395,
+                "size": 48
+              }
+            ],
+            "sections": [
+              {
+                "name": "Cut the Grass",
+                "item_count": 1,
+                //"capture_item": true,
+                "visibility_rules": [
+                  "maiamai_map"
+                ],
+                "access_rules": [
+                  "$cutGrass"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Maiamai 56",
+            "map_locations": [
+              {
+                "map": "lorule",
+                "x": 203,
+                "y": 733,
+                "size": 48
+              }
+            ],
+            "sections": [
+              {
+                "name": "Under Big Rock Fence",
+                "item_count": 1,
+                //"capture_item": true,
+                "visibility_rules": [
+                  "maiamai_map"
+                ],
+                "access_rules": [
+                  "titansmitt"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      // Graveyard - 3
+      {
+        "name": "Lorule Graveyard",
+        "access_rules": [
+          "$access_lorule_graveyard",
+          "[lampless], $lampless_access_lorule_graveyard"
+        ],
+        "children": [
+          {
+            "name": "Maiamai 57",
+            "map_locations": [
+              {
+                "map": "lorule",
+                "x": 895,
+                "y": 614,
+                "size": 48
+              }
+            ],
+            "sections": [
+              {
+                "name": "Under West Big Rock",
+                "item_count": 1,
+                //"capture_item": true,
+                "visibility_rules": [
+                  "maiamai_map"
+                ],
+                "access_rules": [
+                  "titansmitt"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Maiamai 58",
+            "map_locations": [
+              {
+                "map": "lorule",
+                "x": 1100,
+                "y": 589,
+                "size": 48
+              }
+            ],
+            "sections": [
+              {
+                "name": "Stuck to Crack Wall",
+                "item_count": 1,
+                "access_rules": [
+                  "merge"
+                ],
+                //"capture_item": true,
+                "visibility_rules": [
+                  "maiamai_map"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Maiamai 59",
+            "map_locations": [
+              {
+                "map": "lorule",
+                "x": 1356,
+                "y": 836,
+                "size": 48
+              }
+            ],
+            "sections": [
+              {
+                "name": "Peninsula Dash Tree",
+                "item_count": 1,
+                //"capture_item": true,
+                "visibility_rules": [
+                  "maiamai_map"
+                ],
+                "access_rules": [
+                  "boots"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      // Dark Ruins - 10
+      {
+        "name": "Dark Ruins",
+        "access_rules": [
+          "$access_dark_ruins",
+          "[glitched], $glitched_access_dark_ruins",
+          "[advanced], $advanced_access_dark_ruins",
+          "[hell], $hell_access_dark_ruins"
+        ],
+        "children": [
+          {
+            "name": "Maiamai 60",
+            "map_locations": [
+              {
+                "map": "lorule",
+                "x": 1438,
+                "y": 1142,
+                "size": 48
+              }
+            ],
+            "sections": [
+              {
+                "name": "Dash Rock",
+                "item_count": 1,
+                //"capture_item": true,
+                "visibility_rules": [
+                  "maiamai_map"
+                ],
+                "access_rules": [
+                  //"{}",
+                  "boots"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Maiamai 61",
+            "map_locations": [
+              {
+                "map": "lorule",
+                "x": 1426,
+                "y": 575,
+                "size": 48
+              }
+            ],
+            "sections": [
+              {
+                "name": "Under the Waterfall",
+                "item_count": 1,
+                //"capture_item": true,
+                "visibility_rules": [
+                  "maiamai_map"
+                ],
+                "access_rules": [
+                  //"{}",
+                  "flippers",
+                  "[advanced], $fakeFlippers",
+                  "[hell], boots"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Maiamai 62",
+            "map_locations": [
+              {
+                "map": "lorule",
+                "x": 1720,
+                "y": 588,
+                "size": 48
+              }
+            ],
+            "sections": [
+              {
+                "name": "River by Scared Hinox",
+                "item_count": 1,
+                //"capture_item": true,
+                "visibility_rules": [
+                  "maiamai_map"
+                ],
+                "access_rules": [
+                  //"{}",
+                  "merge, flippers",
+                  "[advanced], merge, boots"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Maiamai 63",
+            "map_locations": [
+              {
+                "map": "lorule",
+                "x": 1860,
+                "y": 749,
+                "size": 48
+              }
+            ],
+            "sections": [
+              {
+                "name": "Grassy Ledge",
+                "item_count": 1,
+                //"capture_item": true,
+                "visibility_rules": [
+                  "maiamai_map"
+                ],
+                "access_rules": [
+                  "merge, $cutGrass"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Maiamai 64",
+            "map_locations": [
+              {
+                "map": "lorule",
+                "x": 1785,
+                "y": 444,
+                "size": 48
+              }
+            ],
+            "sections": [
+              {
+                "name": "Submerged",
+                "item_count": 1,
+                //"capture_item": true,
+                "visibility_rules": [
+                  "maiamai_map"
+                ],
+                "access_rules": [
+                  //"{}",
+                  "merge, flippers"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Maiamai 65",
+            "map_locations": [
+              {
+                "map": "lorule",
+                "x": 1353,
+                "y": 1333,
+                "size": 48
+              }
+            ],
+            "sections": [
+              {
+                "name": "Canyon Dash Tree",
+                "item_count": 1,
+                //"capture_item": true,
+                "visibility_rules": [
+                  "maiamai_map"
+                ],
+                "access_rules": [
+                  "boots"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Maiamai 66",
+            "map_locations": [
+              {
+                "map": "lorule",
+                "x": 1581,
+                "y": 1335,
+                "size": 48
+              }
+            ],
+            "sections": [
+              {
+                "name": "Dash into Leftmost Tree",
+                "item_count": 1,
+                //"capture_item": true,
+                "visibility_rules": [
+                  "maiamai_map"
+                ],
+                "access_rules": [
+                  "boots"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Maiamai 67",
+            "map_locations": [
+              {
+                "map": "lorule",
+                "x": 1575,
+                "y": 1185,
+                "size": 48
+              }
+            ],
+            "sections": [
+              {
+                "name": "Entrance Wall",
+                "item_count": 1,
+                "access_rules": [
+                  "merge"
+                ],
+                //"capture_item": true,
+                "visibility_rules": [
+                  "maiamai_map"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Maiamai 68",
+            "map_locations": [
+              {
+                "map": "lorule",
+                "x": 1927,
+                "y": 1487,
+                "size": 48
+              }
+            ],
+            "sections": [
+              {
+                "name": "South Area Wall",
+                "item_count": 1,
+                "access_rules": [
+                  "merge"
+                ],
+                //"capture_item": true,
+                "visibility_rules": [
+                  "maiamai_map"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Maiamai 69",
+            "map_locations": [
+              {
+                "map": "lorule",
+                "x": 1834,
+                "y": 914,
+                "size": 48
+              }
+            ],
+            "sections": [
+              {
+                "name": "Guarded Wall",
+                "item_count": 1,
+                "access_rules": [
+                  "merge"
+                ],
+                //"capture_item": true,
+                "visibility_rules": [
+                  "maiamai_map"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      // Lorule Castle Area - 15
+      {
+        "name": "Central Lorule",
+        "access_rules": [
+          "$access_central_lorule",
+          "[advanced], advanced_access_central_lorule",
+          "[hell], hell_access_central_lorule"
+        ],
+        "children": [
+          {
+            "name": "Maiamai 70",
+            "map_locations": [
+              {
+                "map": "lorule",
+                "x": 614,
+                "y": 1065,
+                "size": 48
+              }
+            ],
+            "sections": [
+              {
+                "name": "Stuck to House",
+                "item_count": 1,
+                //"capture_item": true,
+                "access_rules": [
+                  //"{}",
+                  "merge"
+                ],
+                "visibility_rules": [
+                  "maiamai_map"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Maiamai 71",
+            "map_locations": [
+              {
+                "map": "lorule",
+                "x": 600,
+                "y": 946,
+                "size": 48
+              }
+            ],
+            "sections": [
+              {
+                "name": "Under Nearby Big Rock",
+                "item_count": 1,
+                //"capture_item": true,
+                "visibility_rules": [
+                  "maiamai_map"
+                ],
+                "access_rules": [
+                  "titansmitt"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Maiamai 72",
+            "map_locations": [
+              {
+                "map": "lorule",
+                "x": 466,
+                "y": 1172,
+                "size": 48
+              }
+            ],
+            "sections": [
+              {
+                "name": "Dash Tree",
+                "item_count": 1,
+                //"capture_item": true,
+                "visibility_rules": [
+                  "maiamai_map"
+                ],
+                "access_rules": [
+                  "boots"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Maiamai 73",
+            "map_locations": [
+              {
+                "map": "lorule",
+                "x": 120,
+                "y": 1205,
+                "size": 48
+              }
+            ],
+            "sections": [
+              {
+                "name": "SW Walls",
+                "item_count": 1,
+                //"capture_item": true,
+                "access_rules": [
+                  //"{}",
+                  "merge"
+                ],
+                "visibility_rules": [
+                  "maiamai_map"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Maiamai 74",
+            "map_locations": [
+              {
+                "map": "lorule",
+                "x": 455,
+                "y": 1345,
+                "size": 48
+              }
+            ],
+            "sections": [
+              {
+                "name": "Cut the Grass",
+                "item_count": 1,
+                //"capture_item": true,
+                "visibility_rules": [
+                  "maiamai_map"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Maiamai 75",
+            "map_locations": [
+              {
+                "map": "lorule",
+                "x": 114,
+                "y": 1288,
+                "size": 48
+              }
+            ],
+            "sections": [
+              {
+                "name": "Northern Wall",
+                "item_count": 1,
+                //"capture_item": true,
+                "access_rules": [
+                  //"{}",
+                  "merge"
+                ],
+                "visibility_rules": [
+                  "maiamai_map"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Maiamai 76",
+            "map_locations": [
+              {
+                "map": "lorule",
+                "x": 603,
+                "y": 1456,
+                "size": 48
+              }
+            ],
+            "sections": [
+              {
+                "name": "Under Skull",
+                "item_count": 1,
+                //"capture_item": true,
+                "visibility_rules": [
+                  "maiamai_map"
+                ],
+                "access_rules": [
+                  "[hard]",
+                  // Grab a bush from lower screen and throw
+                  "fsword",
+                  "bow",
+                  "boomerang",
+                  "hookshot",
+                  "bombs",
+                  "frod",
+                  "irod",
+                  "hammer",
+                  "srod",
+                  "boots",
+                  "power_glove"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Maiamai 77",
+            "map_locations": [
+              {
+                "map": "lorule",
+                "x": 543,
+                "y": 1695,
+                "size": 48
+              }
+            ],
+            "sections": [
+              {
+                "name": "Stuck to High Wall",
+                "item_count": 1,
+                //"capture_item": true,
+                "access_rules": [
+                  //"{}",
+                  "quake, merge"
+                ],
+                "visibility_rules": [
+                  "maiamai_map"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Maiamai 78",
+            "map_locations": [
+              {
+                "map": "lorule",
+                "x": 903,
+                "y": 1411,
+                "size": 48
+              }
+            ],
+            "sections": [
+              {
+                "name": "Under Big Rock",
+                "item_count": 1,
+                //"capture_item": true,
+                "visibility_rules": [
+                  "maiamai_map"
+                ],
+                "access_rules": [
+                  "titansmitt"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Maiamai 79",
+            "map_locations": [
+              {
+                "map": "lorule",
+                "x": 1065,
+                "y": 1326,
+                "size": 48
+              }
+            ],
+            "sections": [
+              {
+                "name": "Stuck to Wall Behind House",
+                "item_count": 1,
+                //"capture_item": true,
+                "access_rules": [
+                  //"{}",
+                  "merge"
+                ],
+                "visibility_rules": [
+                  "maiamai_map"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Maiamai 80",
+            "map_locations": [
+              {
+                "map": "lorule",
+                "x": 1098,
+                "y": 1092,
+                "size": 48
+              }
+            ],
+            "sections": [
+              {
+                "name": "Stuck to Castle Wall",
+                "item_count": 1,
+                //"capture_item": true,
+                "access_rules": [
+                  //"{}",
+                  "merge"
+                ],
+                "visibility_rules": [
+                  "maiamai_map"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Maiamai 81",
+            "map_locations": [
+              {
+                "map": "lorule",
+                "x": 1208,
+                "y": 1214,
+                "size": 48
+              }
+            ],
+            "sections": [
+              {
+                "name": "Dash Tree",
+                "item_count": 1,
+                //"capture_item": true,
+                "visibility_rules": [
+                  "maiamai_map"
+                ],
+                "access_rules": [
+                  "boots"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Maiamai 82",
+            "map_locations": [
+              {
+                "map": "lorule",
+                "x": 1215,
+                "y": 1573,
+                "size": 48
+              }
+            ],
+            "sections": [
+              {
+                "name": "Stuck to NE Wall",
+                "item_count": 1,
+                //"capture_item": true,
+                "access_rules": [
+                  //"{}",
+                  "merge"
+                ],
+                "visibility_rules": [
+                  "maiamai_map"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Maiamai 83",
+            "map_locations": [
+              {
+                "map": "lorule",
+                "x": 952,
+                "y": 1650,
+                "size": 48
+              }
+            ],
+            "sections": [
+              {
+                "name": "Submerged in Pond",
+                "item_count": 1,
+                //"capture_item": true,
+                "visibility_rules": [
+                  "maiamai_map"
+                ],
+                "access_rules": [
+                  //"{}",
+                  "flippers"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Maiamai 84",
+            "map_locations": [
+              {
+                "map": "lorule",
+                "x": 1139,
+                "y": 1789,
+                "size": 48
+              }
+            ],
+            "sections": [
+              {
+                "name": "Dash Pillars",
+                "item_count": 1,
+                //"capture_item": true,
+                "visibility_rules": [
+                  "maiamai_map"
+                ],
+                "access_rules": [
+                  //"{}",
+                  "boots"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      // Misery Mire - 3
+      {
+        "name": "Misery Mire",
+        "access_rules": [
+          "$access_misery_mire"
+        ],
+        "children": [
+          {
+            "name": "Maiamai 85",
+            "map_locations": [
+              {
+                "map": "lorule",
+                "x": 460,
+                "y": 1800,
+                "size": 48
+              }
+            ],
+            "sections": [
+              {
+                "name": "Behind Weather Vane",
+                "item_count": 1,
+                "access_rules": [
+                  "merge"
+                ],
+                //"capture_item": true,
+                "visibility_rules": [
+                  "maiamai_map"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Maiamai 86",
+            "map_locations": [
+              {
+                "map": "lorule",
+                "x": 134,
+                "y": 1902,
+                "size": 48
+              }
+            ],
+            "sections": [
+              {
+                "name": "Submerged Underwater",
+                "item_count": 1,
+                //"capture_item": true,
+                "visibility_rules": [
+                  "maiamai_map"
+                ],
+                "access_rules": [
+                  //"{}",
+                  "flippers"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Maiamai 87",
+            "map_locations": [
+              {
+                "map": "lorule",
+                "x": 658,
+                "y": 1923,
+                "size": 48
+              }
+            ],
+            "sections": [
+              {
+                "name": "Under Crack Big Rock",
+                "item_count": 1,
+                //"capture_item": true,
+                "visibility_rules": [
+                  "maiamai_map"
+                ],
+                "access_rules": [
+                  "titansmitt"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      // Lorule Lake - 5
+      {
+        "name": "Lorule Lake",
+        "access_rules": [
+          "merge"
+        ],
+        "children": [
+          {
+            "name": "Maiamai 88",
+            "map_locations": [
+              {
+                "map": "lorule",
+                "x": 1344,
+                "y": 1790,
+                "size": 48
+              }
+            ],
+            "sections": [
+              {
+                "name": "Near Lake Shop",
+                "item_count": 1,
+                "access_rules": [
+                  "not_cracksanity, quake",
+                  "cracksanity, crack_lake_lorule",
+                  "cracksanity, crack_river_lorule, flippers",
+                  "cracksanity, crack_lorule_hotfoot, flippers",
+                  "$warpLorule, bell, wv_turtle, flippers",
+                  "[glitched], $glitched_access_dark_ruins, $boost, flippers",
+                  "[advanced], $advanced_access_dark_ruins, $fakeFlippers",
+                  "[hell], $hell_access_dark_ruins, $beeFakeFlippers",
+                  "[advanced], cracksanity, crack_lorule_hotfoot, $fakeFlippers",
+                  "[hell], cracksanity, crack_lorule_hotfoot, $beeFakeFlippers"
+                ],
+                //"capture_item": true,
+                "visibility_rules": [
+                  "maiamai_map"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Maiamai 89",
+            "map_locations": [
+              {
+                "map": "lorule",
+                "x": 1351,
+                "y": 1950,
+                "size": 48
+              }
+            ],
+            "sections": [
+              {
+                "name": "Under SW Big Rock",
+                "item_count": 1,
+                //"capture_item": true,
+                "visibility_rules": [
+                  "maiamai_map"
+                ],
+                "access_rules": [
+                  "titansmitt, not_cracksanity, quake",
+                  "titansmitt, cracksanity, crack_lake_lorule",
+                  "titansmitt, cracksanity, crack_river_lorule, flippers",
+                  "titansmitt, cracksanity, crack_lorule_hotfoot, flippers",
+                  "titansmitt, $warpLorule, bell, wv_turtle, flippers",
+                  "titansmitt, [glitched], $glitched_access_dark_ruins, $boost, flippers",
+                  "titansmitt, [advanced], $advanced_access_dark_ruins, $fakeFlippers",
+                  "titansmitt, [hell], $hell_access_dark_ruins, $beeFakeFlippers",
+                  "titansmitt, [advanced], cracksanity, crack_lorule_hotfoot, $fakeFlippers",
+                  "titansmitt, [hell], $hell_access_dark_ruins, $beeBoost, scroll",
+                  "titansmitt, [hell], cracksanity, crack_lorule_hotfoot"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Maiamai 90",
+            "map_locations": [
+              {
+                "map": "lorule",
+                "x": 1906,
+                "y": 1971,
+                "size": 48
+              }
+            ],
+            "sections": [
+              {
+                "name": "Stuck to SE Wall",
+                "item_count": 1,
+                "access_rules": [
+                  "not_cracksanity, quake",
+                  "cracksanity, crack_lake_lorule, flippers",
+                  "cracksanity, crack_river_lorule, flippers",
+                  "cracksanity, crack_lorule_hotfoot",
+                  "$warpLorule, bell, wv_turtle, flippers",
+                  "[glitched], $glitched_access_dark_ruins, $boost, flippers",
+                  "[glitched], $glitched_access_dark_ruins, $boost, scroll",
+                  "[advanced], $advanced_access_dark_ruins, $fakeFlippers",
+                  "[hell], $hell_access_dark_ruins, $beeBoost, scroll",
+                  "[hell], $hell_access_dark_ruins, $beeFakeFlippers"
+                ],
+                //"capture_item": true,
+                "visibility_rules": [
+                  "maiamai_map"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Maiamai 91",
+            "map_locations": [
+              {
+                "map": "lorule",
+                "x": 1773,
+                "y": 1616,
+                "size": 48
+              }
+            ],
+            "sections": [
+              {
+                "name": "East Ledge Skull",
+                "item_count": 1,
+                "access_rules": [
+                  "not_cracksanity, quake",
+                  "cracksanity, crack_lake_lorule, flippers",
+                  "cracksanity, crack_river_lorule, flippers",
+                  "cracksanity, crack_lorule_hotfoot",
+                  "$warpLorule, bell, wv_turtle, flippers",
+                  "[glitched], $glitched_access_dark_ruins, $boost, flippers",
+                  "[glitched], $glitched_access_dark_ruins, $boost, scroll",
+                  "[advanced], $advanced_access_dark_ruins, $fakeFlippers",
+                  "[hell], $hell_access_dark_ruins, $beeBoost, scroll",
+                  "[hell], $hell_access_dark_ruins, $beeFakeFlippers"
+                ],
+                //"capture_item": true,
+                "visibility_rules": [
+                  "maiamai_map"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Maiamai 92",
+            "map_locations": [
+              {
+                "map": "lorule",
+                "x": 1675,
+                "y": 1698,
+                "size": 48
+              }
+            ],
+            "sections": [
+              {
+                "name": "Lake Rupee Ring",
+                "item_count": 1,
+                //"capture_item": true,
+                "visibility_rules": [
+                  "maiamai_map"
+                ],
+                "access_rules": [
+                  //"{}",
+                  "not_cracksanity, quake, flippers",
+                  "cracksanity, crack_lake_lorule, flippers",
+                  "cracksanity, crack_river_lorule, flippers",
+                  "cracksanity, crack_lorule_hotfoot, flippers",
+                  "[advanced], cracksanity, crack_lorule_hotfoot, $fakeFlippers",
+                  "[hell], cracksanity, crack_lorule_hotfoot, $beeFakeFlippers",
+                  "$warpLorule, bell, wv_turtle, flippers",
+                  "[glitched], $glitched_access_dark_ruins, $boost, flippers",
+                  "[advanced], $advanced_access_dark_ruins, $fakeFlippers",
+                  "[hell], $hell_access_dark_ruins, $beeFakeFlippers"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

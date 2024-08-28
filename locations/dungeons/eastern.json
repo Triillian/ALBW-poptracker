@@ -1,0 +1,216 @@
+[
+  {
+    "name": "Eastern Palace",
+    "color": "#00FF00",
+    "chest_unopened_img": "images/checks/chest_small_unopened.png",
+    "chest_opened_img": "images/checks/chest_small_opened.png",
+    "children": [
+      {
+        "name": "Eastern Palace",
+        "map_locations": [
+          {
+            "map": "ep1F",
+            "x": 114,
+            "y": 121
+          }
+        ],
+        "sections": [
+          {
+            "ref": "Hyrule Overworld/Eastern Palace/1F Merge Chest"
+          }
+        ]
+      },
+      {
+        "name": "Eastern Palace",
+        "map_locations": [
+          {
+            "map": "ep1F",
+            "x": 73,
+            "y": 101
+          }
+        ],
+        "sections": [
+          {
+            "ref": "Hyrule Overworld/Eastern Palace/1F Left Door Chest"
+          }
+        ]
+      },
+      {
+        "name": "Eastern Palace",
+        "map_locations": [
+          {
+            "map": "ep1F",
+            "x": 45,
+            "y": 48
+          }
+        ],
+        "sections": [
+          {
+            "ref": "Hyrule Overworld/Eastern Palace/1F Popo Room"
+          }
+        ]
+      },
+      {
+        "name": "Eastern Palace",
+        "map_locations": [
+          {
+            "map": "ep1F",
+            "x": 45,
+            "y": 76
+          }
+        ],
+        "sections": [
+          {
+            "ref": "Hyrule Overworld/Eastern Palace/1F Secret Room"
+          }
+        ]
+      },
+      {
+        "name": "Eastern Palace",
+        "map_locations": [
+          {
+            "map": "ep1F",
+            "x": 141,
+            "y": 47
+          }
+        ],
+        "sections": [
+          {
+            "ref": "Hyrule Overworld/Eastern Palace/1F Switch Room"
+          }
+        ]
+      },
+      {
+        "name": "Eastern Palace",
+        "map_locations": [
+          {
+            "map": "ep2F",
+            "x": 48,
+            "y": 65
+          }
+        ],
+        "sections": [
+          {
+            "ref": "Hyrule Overworld/Eastern Palace/2F Ball Room"
+          }
+        ]
+      },
+      {
+        "name": "Eastern Palace",
+        "map_locations": [
+          {
+            "map": "ep2F",
+            "x": 128,
+            "y": 45
+          }
+        ],
+        "sections": [
+          {
+            "ref": "Hyrule Overworld/Eastern Palace/2F Defeat Popos"
+          }
+        ]
+      },
+      {
+        "name": "Eastern Palace",
+        "map_locations": [
+          {
+            "map": "ep2F",
+            "x": 164,
+            "y": 109
+          }
+        ],
+        "sections": [
+          {
+            "ref": "Hyrule Overworld/Eastern Palace/2F Switch Room"
+          }
+        ]
+      },
+      {
+        "name": "Eastern Palace",
+        "map_locations": [
+          {
+            "map": "ep2F",
+            "x": 42,
+            "y": 97
+          }
+        ],
+        "sections": [
+          {
+            "ref": "Hyrule Overworld/Eastern Palace/2F Big Chest"
+          }
+        ]
+      },
+      {
+        "name": "Eastern Palace",
+        "map_locations": [
+          {
+            "map": "ep3F",
+            "size": 10,
+            "x": 88,
+            "y": 76
+          }
+        ],
+        "sections": [
+          {
+            "ref": "Hyrule Overworld/Eastern Palace/Yuga 1"
+          },
+          {
+            "ref": "Hyrule Overworld/Eastern Palace/Yuga 2"
+          }
+        ]
+      },
+      {
+        "name": "Eastern Palace",
+        "map_locations": [
+          {
+            "map": "ep3F",
+            "x": 135,
+            "y": 76
+          }
+        ],
+        "sections": [
+          {
+            "ref": "Hyrule Overworld/Eastern Palace/3F Escape Chest"
+          }
+        ]
+      },
+      {
+        "name": "Eastern Palace",
+        "map_locations": [
+          {
+            "map": "ep1F",
+            "x": 41,
+            "y": 97
+          }
+        ],
+        "sections": [
+          {
+            "ref": "Hyrule Overworld/Eastern Palace/1F Escape Chest"
+          }
+        ]
+      },
+      {
+        "name": "Eastern Palace",
+        "map_locations": [
+          {
+            "map": "ep1F",
+            "x": 89,
+            "y": 130
+          }
+        ],
+        "sections": [
+          {"name": "Pendant of Power", "hosted_item": "power", "access_rules": ["$yuga_eastern"], "visibility_rules": ["label_power_ep"]},
+          {"name": "Pendant of Wisdom", "hosted_item": "wisdom", "access_rules": ["$yuga_eastern"], "visibility_rules": ["label_wisdom_ep"]},
+          {"name": "Pendant of Courage", "hosted_item": "courage", "access_rules": ["$yuga_eastern"], "visibility_rules": ["label_courage_ep"]},
+          {"name": "Gulley", "hosted_item": "gulley", "access_rules": ["$yuga_eastern"], "visibility_rules": ["label_gulley_ep"]},
+          {"name": "Oren", "hosted_item": "oren", "access_rules": ["$yuga_eastern"], "visibility_rules": ["label_oren_ep"]},
+          {"name": "Seres", "hosted_item": "seres", "access_rules": ["$yuga_eastern"], "visibility_rules": ["label_seres_ep"]},
+          {"name": "Osfala", "hosted_item": "osfala", "access_rules": ["$yuga_eastern"], "visibility_rules": ["label_osfala_ep"]},
+          {"name": "Impa", "hosted_item": "impa", "access_rules": ["$yuga_eastern"], "visibility_rules": ["label_impa_ep"]},
+          {"name": "Irene", "hosted_item": "irene", "access_rules": ["$yuga_eastern"], "visibility_rules": ["label_irene_ep"]},
+          {"name": "Rosso", "hosted_item": "rosso", "access_rules": ["$yuga_eastern"], "visibility_rules": ["label_rosso_ep"]}
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,233 @@
+[
+  {
+    "name": "Turtle Rock",
+    "color": "#a332ce",
+    "chest_unopened_img": "images/checks/chest_small_unopened.png",
+    "chest_opened_img": "images/checks/chest_small_opened.png",
+    "children": [
+      {
+        "name": "Turtle Rock",
+        "map_locations": [
+          {
+            "map": "turtle1F",
+            "x": 89,
+            "y": 95
+          }
+        ],
+        "sections": [
+          {
+            "ref": "Lorule Overworld/Turtle Rock/1F Center Switches"
+          }
+        ]
+      },
+      {
+        "name": "Turtle Rock",
+        "map_locations": [
+          {
+            "map": "turtle1F",
+            "x": 67,
+            "y": 85
+          }
+        ],
+        "sections": [
+          {
+            "ref": "Lorule Overworld/Turtle Rock/1F Kill Flamolas"
+          }
+        ]
+      },
+      {
+        "name": "Turtle Rock",
+        "map_locations": [
+          {
+            "map": "turtle1F",
+            "x": 109,
+            "y": 74
+          }
+        ],
+        "sections": [
+          {
+            "ref": "Lorule Overworld/Turtle Rock/1F NE Ledge"
+          }
+        ]
+      },
+      {
+        "name": "Turtle Rock",
+        "map_locations": [
+          {
+            "map": "turtle1F",
+            "x": 89,
+            "y": 58
+          }
+        ],
+        "sections": [
+          {
+            "ref": "Lorule Overworld/Turtle Rock/1F Miniboss Room"
+          }
+        ]
+      },
+      {
+        "name": "Turtle Rock",
+        "map_locations": [
+          {
+            "map": "turtle1F",
+            "x": 120,
+            "y": 133
+          }
+        ],
+        "sections": [
+          {
+            "ref": "Lorule Overworld/Turtle Rock/1F SE Room"
+          }
+        ]
+      },
+      {
+        "name": "Turtle Rock",
+        "map_locations": [
+          {
+            "map": "turtle1F",
+            "x": 52,
+            "y": 54
+          }
+        ],
+        "sections": [
+          {
+            "ref": "Lorule Overworld/Turtle Rock/1F NW Room"
+          }
+        ]
+      },
+      {
+        "name": "Turtle Rock",
+        "map_locations": [
+          {
+            "map": "turtle1F",
+            "x": 16,
+            "y": 46
+          },
+          {
+            "map": "lorule",
+            "x": 1508,
+            "y": 1639
+          }
+        ],
+        "sections": [
+          {
+            "ref": "Lorule Overworld/Turtle Rock/Left Balcony"
+          }
+        ]
+      },
+      {
+        "name": "Turtle Rock",
+        "map_locations": [
+          {
+            "map": "turtleB1",
+            "x": 89,
+            "y": 47
+          }
+        ],
+        "sections": [
+          {
+            "ref": "Lorule Overworld/Turtle Rock/B1 Near Big Chest"
+          }
+        ]
+      },
+      {
+        "name": "Turtle Rock",
+        "map_locations": [
+          {
+            "map": "turtleB1",
+            "x": 89,
+            "y": 58
+          }
+        ],
+        "sections": [
+          {
+            "ref": "Lorule Overworld/Turtle Rock/B1 North Big Chest"
+          }
+        ]
+      },
+      {
+        "name": "Turtle Rock",
+        "map_locations": [
+          {
+            "map": "turtleB1",
+            "x": 89,
+            "y": 85
+          }
+        ],
+        "sections": [
+          {
+            "ref": "Lorule Overworld/Turtle Rock/B1 Center Big Chest"
+          }
+        ]
+      },
+      {
+        "name": "Turtle Rock",
+        "map_locations": [
+          {
+            "map": "turtleB1",
+            "x": 136,
+            "y": 49
+          }
+        ],
+        "sections": [
+          {
+            "ref": "Lorule Overworld/Turtle Rock/B1 NE Room"
+          }
+        ]
+      },
+      {
+        "name": "Turtle Rock",
+        "map_locations": [
+          {
+            "map": "turtleB1",
+            "x": 109,
+            "y": 85
+          }
+        ],
+        "sections": [
+          {
+            "ref": "Lorule Overworld/Turtle Rock/B1 Kill Wizrobes"
+          }
+        ]
+      },
+      {
+        "name": "Turtle Rock",
+        "map_locations": [
+          {
+            "map": "turtleB2",
+            "x": 78,
+            "y": 92
+          }
+        ],
+        "sections": [
+          {
+            "ref": "Lorule Overworld/Turtle Rock/Grinexx"
+          }
+        ]
+      },
+      {
+        "name": "Turtle Rock",
+        "map_locations": [
+          {
+            "map": "turtleB2",
+            "x": 89,
+            "y": 75,
+            "size": 20
+          }
+        ],
+        "sections": [
+          {"name": "Pendant of Power", "hosted_item": "power", "access_rules": ["$enterTR"], "visibility_rules": ["label_power_tr"]},
+          {"name": "Pendant of Wisdom", "hosted_item": "wisdom", "access_rules": ["$enterTR"], "visibility_rules": ["label_wisdom_tr"]},
+          {"name": "Pendant of Courage", "hosted_item": "courage", "access_rules": ["$enterTR"], "visibility_rules": ["label_courage_tr"]},
+          {"name": "Gulley", "hosted_item": "gulley", "access_rules": ["$enterTR"], "visibility_rules": ["label_gulley_tr"]},
+          {"name": "Oren", "hosted_item": "oren", "access_rules": ["$enterTR"], "visibility_rules": ["label_oren_tr"]},
+          {"name": "Seres", "hosted_item": "seres", "access_rules": ["$enterTR"], "visibility_rules": ["label_seres_tr"]},
+          {"name": "Osfala", "hosted_item": "osfala", "access_rules": ["$enterTR"], "visibility_rules": ["label_osfala_tr"]},
+          {"name": "Impa", "hosted_item": "impa", "access_rules": ["$enterTR"], "visibility_rules": ["label_impa_tr"]},
+          {"name": "Irene", "hosted_item": "irene", "access_rules": ["$enterTR"], "visibility_rules": ["label_irene_tr"]},
+          {"name": "Rosso", "hosted_item": "rosso", "access_rules": ["$enterTR"], "visibility_rules": ["label_rosso_tr"]}
+        ]
+      }
+    ]
+  }
+]

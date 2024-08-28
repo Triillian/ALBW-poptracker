@@ -1,0 +1,34 @@
+{
+  "eastern": {
+    "type": "container",
+    "content": [
+      {
+        "type": "array",
+        "orientation": "vertical",
+        "content": [
+          {
+            "type": "map",
+            "maps": [
+              "", "ep3F", ""
+            ]
+          },
+          {
+            "type": "map",
+            "maps": [
+              "", "ep2F", ""
+            ]
+          },
+          {
+            "type": "map",
+            "maps": [
+              "", "ep1F", ""
+            ]
+          },
+          {
+            "type": "container"
+          }
+        ]
+      }
+    ]
+  }
+}

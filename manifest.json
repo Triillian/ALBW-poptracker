@@ -1,0 +1,17 @@
+﻿// Based on the ALBW Randomizer Beta Tracker by RickwithanH
+{
+  "name": "ALBW Archipelago Tracker",
+  "game_name": "The Legend of Zelda: A Link Between Worlds",
+  "platform": "3DS",
+  "package_version": "0.1",
+  "package_uid": "arborelia_albw_ap_tracker",
+  "author": "arborelia",
+  "variants": {
+    "standard": {
+      "display_name": "Standard Map Tracker",
+      "flags": [
+        "ap"
+      ]
+    }
+  },
+}

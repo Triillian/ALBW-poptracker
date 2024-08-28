@@ -1,0 +1,34 @@
+{
+  "dark": {
+    "type": "container",
+    "content": [
+      {
+        "type": "array",
+        "orientation": "vertical",
+        "content": [
+          {
+            "type": "map",
+            "maps": [
+              "", "dark2F", ""
+            ]
+          },
+          {
+            "type": "map",
+            "maps": [
+              "", "dark1F", ""
+            ]
+          },
+          {
+            "type": "map",
+            "maps": [
+              "", "darkB1", ""
+            ]
+          },
+          {
+            "type": "container"
+          }
+        ]
+      }
+    ]
+  }
+}

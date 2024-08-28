@@ -1,0 +1,810 @@
+[
+  {
+    "name": "Bee Badge",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/items/bee_badge.png",
+    "codes": "bee_badge, beebadge"
+  },
+  {
+    "name": "Bell",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/items/bell.png",
+    "codes": "bell"
+  },
+  {
+    "name": "Big Key",
+    "type": "toggle",
+    "img": "images/items/key_big.png",
+    "codes": "bigkey"
+  },
+  {
+    "name": "Blacksmith",
+    "type": "toggle",
+    "img": "images/checks/blacksmith.png",
+    "loop": true,
+    "codes": "blacksmith"
+  },
+  {
+    "name": "Blue Rupee",
+    "type": "toggle",
+    "img": "images/junk/rupee_blue.png",
+    "codes": "rupee_blue"
+  },
+  {
+    "name": "Bombs",
+    "type": "progressive",
+    "codes": "p_bombs",
+    "stages": [
+      {
+        "name": "Bombs",
+        "img": "images/items/bombs.png",
+        "codes": "bombs"
+      },
+      {
+        "name": "Nice Bombs",
+        "img": "images/items/bombs_nice.png",
+        "codes": "nicebombs"
+      }
+    ]
+  },
+  {
+    "name": "Boomerang",
+    "type": "progressive",
+    "codes": "p_boomerang",
+    "stages": [
+      {
+        "name": "Boomerang",
+        "img": "images/items/boomerang.png",
+        "codes": "boomerang"
+      },
+      {
+        "name": "Nice Boomerang",
+        "img": "images/items/boomerang_nice.png",
+        "codes": "niceboomerang"
+      }
+    ]
+  },
+  //  {
+  //    "name": "Bottles",
+  //    "type": "progressive",
+  //    "loop": true,
+  //    "allow_disabled": false,
+  //    "stages": [
+  //      {
+  //        "name": "0 Bottles",
+  //        "img": "images/items/bottle.png",
+  //        "img_mods": "@disabled",
+  //        "codes": "bottle, bottles"
+  //      },
+  //      {
+  //        "name": "1 Bottle",
+  //        "img": "images/items/bottle.png",
+  //        "img_mods": "overlay|images/numbers/bottle_1.png",
+  //        "codes": "bottle_1"
+  //      },
+  //      {
+  //        "name": "2 Bottles",
+  //        "img": "images/items/bottle.png",
+  //        "img_mods": "overlay|images/numbers/bottle_2.png",
+  //        "codes": "bottle_2"
+  //      },
+  //      {
+  //        "name": "3 Bottles",
+  //        "img": "images/items/bottle.png",
+  //        "img_mods": "overlay|images/numbers/bottle_3.png",
+  //        "codes": "bottle_3"
+  //      },
+  //      {
+  //        "name": "4 Bottles",
+  //        "img": "images/items/bottle.png",
+  //        "img_mods": "overlay|images/numbers/bottle_4.png",
+  //        "codes": "bottle_4"
+  //      },
+  //      {
+  //        "name": "5 Bottles",
+  //        "img": "images/items/bottle.png",
+  //        "img_mods": "overlay|images/numbers/bottle_5.png",
+  //        "codes": "bottle_5"
+  //      }
+  //    ]
+  //  },
+  {
+    "name": "Empty Bottle / Golden Bee",
+    "type": "progressive",
+    "stages": [
+      {
+        "name": "Empty Bottle",
+        "img": "images/items/bottle.png",
+        "codes": "bottle, bottles, bottle_empty, empty_bottle"
+      },
+      {
+        "name": "Golden Bee",
+        "img": "images/items/bottle_bee_golden.png",
+        "codes": "golden_bee, goldenbee"
+      }
+    ]
+  },
+  {
+    "name": "Letter in a Bottle",
+    "type": "toggle",
+    "img": "images/items/bottle_letter.png",
+    "codes": "bottle_letter, letter, letter_in_a_bottle"
+  },
+  {
+    "name": "Premium Milk",
+    "type": "toggle",
+    "img": "images/items/bottle_milk_premium.png",
+    "codes": "bottle_milk_premium, milk, premium_milk, premiummilk"
+  },
+  {
+    "name": "Bee",
+    "type": "toggle",
+    "img": "images/items/bottle_bee.png",
+    "codes": "bottle_bee"
+  },
+  {
+    "name": "Apple",
+    "type": "toggle",
+    "img": "images/items/bottle_apple.png",
+    "codes": "bottle_apple"
+  },
+  {
+    "name": "Green Apple",
+    "type": "toggle",
+    "img": "images/items/bottle_apple_green.png",
+    "codes": "bottle_apple_green"
+  },
+  {
+    "name": "Fairy",
+    "type": "toggle",
+    "img": "images/items/bottle_fairy.png",
+    "codes": "bottle_fairy"
+  },
+  {
+    "name": "Heart",
+    "type": "toggle",
+    "img": "images/items/bottle_heart.png",
+    "codes": "bottle_heart"
+  },
+  {
+    "name": "Milk",
+    "type": "toggle",
+    "img": "images/items/bottle_milk.png",
+    "codes": "bottle_milk"
+  },
+  {
+    "name": "Red Potion",
+    "type": "toggle",
+    "img": "images/items/bottle_red.png",
+    "codes": "potion_red"
+  },
+  {
+    "name": "Blue Potion",
+    "type": "toggle",
+    "img": "images/items/bottle_blue.png",
+    "codes": "potion_blue"
+  },
+  {
+    "name": "Yellow Potion",
+    "type": "toggle",
+    "img": "images/items/bottle_yellow.png",
+    "codes": "potion_yellow"
+  },
+  {
+    "name": "Purple Potion",
+    "type": "toggle",
+    "img": "images/items/bottle_purple.png",
+    "codes": "potion_purple"
+  },
+  {
+    "name": "Bow",
+    "type": "progressive",
+    "codes": "p_bow",
+    "stages": [
+      {
+        "name": "Bow",
+        "img": "images/items/bow.png",
+        "codes": "bow"
+      },
+      {
+        "name": "Nice Bow",
+        "img": "images/items/bow_nice.png",
+        "codes": "nicebow"
+      }
+    ]
+  },
+  {
+    "name": "Bow of Light",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/items/bow_light.png",
+    "codes": "bow_of_light, bowoflight, bow_light, bowlight"
+  },
+  {
+    "name": "Bug Net",
+    "type": "progressive",
+    "codes": "p_net",
+    "stages": [
+      {
+        "name": "Bug Net",
+        "img": "images/items/net.png",
+        "codes": "net, bugnet"
+      },
+      {
+        "name": "Super Net",
+        "img": "images/items/net_super.png",
+        "codes": "supernet, superbugnet"
+      }
+    ]
+  },
+  {
+    "name": "Charm",
+    "type": "toggle",
+    "codes": "charm"
+  },
+  {
+    "name": "Compass",
+    "type": "toggle",
+    "img": "images/items/compass.png",
+    "codes": "compass"
+  },
+  {
+    "name": "Fire Rod",
+    "type": "progressive",
+    "codes": "p_firerod",
+    "stages": [
+      {
+        "name": "Fire Rod",
+        "img": "images/items/frod.png",
+        "codes": "frod, firerod"
+      },
+      {
+        "name": "Nice Fire Rod",
+        "img": "images/items/frod_nice.png",
+        "codes": "nicefrod, nicefirerod"
+      }
+    ]
+  },
+  {
+    "name": "Foul Fruit",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/items/fruit_foul.png",
+    "codes": "foul, foulfruit"
+  },
+  {
+    "name": "Gold Rupee",
+    "type": "toggle",
+    "img": "images/junk/rupee_gold.png",
+    "codes": "rupee_gold"
+  },
+  {
+    "name": "Green Rupee",
+    "type": "toggle",
+    "img": "images/junk/rupee_green.png",
+    "codes": "rupee_green"
+  },
+  {
+    "name": "Great Spin",
+    "type": "toggle",
+    "loop": true,
+    "mask_input": true,
+    "img": "images/items/great_spin.png",
+    "codes": "great_spin"
+  },
+  {
+    "name": "Go Mode",
+    "type": "toggle",
+    "img": "images/items/gomode.png",
+    "codes": "gomode"
+  },
+  {
+    "name": "Hammer",
+    "type": "progressive",
+    "codes": "p_hammer",
+    "stages": [
+      {
+        "name": "Hammer",
+        "img": "images/items/hammer.png",
+        "codes": "hammer"
+      },
+      {
+        "name": "Nice Hammer",
+        "img": "images/items/hammer_nice.png",
+        "codes": "nicehammer"
+      }
+    ]
+  },
+  {
+    "name": "Heart",
+    "type": "toggle",
+    "img": "images/junk/heart.png",
+    "codes": "heart"
+  },
+  {
+    "name": "Heart Container",
+    "type": "toggle",
+    "img": "images/junk/heart_container.png",
+    "codes": "hc"
+  },
+  {
+    "name": "Heart Piece",
+    "type": "toggle",
+    "img": "images/junk/heart_piece.png",
+    "codes": "hp"
+  },
+  {
+    "name": "Hint Glasses",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/items/hint_glasses.png",
+    "codes": "hint_glasses, glasses"
+  },
+  {
+    "name": "Hookshot",
+    "type": "progressive",
+    "codes": "p_hookshot",
+    "stages": [
+      {
+        "name": "Hookshot",
+        "img": "images/items/hookshot.png",
+        "codes": "hookshot"
+      },
+      {
+        "name": "Nice Hookshot",
+        "img": "images/items/hookshot_nice.png",
+        "codes": "nicehookshot"
+      }
+    ]
+  },
+  {
+    "name": "Ice Rod",
+    "type": "progressive",
+    "codes": "p_icerod",
+    "stages": [
+      {
+        "name": "Ice Rod",
+        "img": "images/items/irod.png",
+        "codes": "irod, icerod"
+      },
+      {
+        "name": "Nice Ice Rod",
+        "img": "images/items/irod_nice.png",
+        "codes": "niceirod, niceicerod"
+      }
+    ]
+  },
+  {
+    "name": "Lamp",
+    "type": "progressive",
+    "codes": "p_lamp",
+    "stages": [
+      {
+        "name": "Lamp",
+        "img": "images/items/lamp.png",
+        "codes": "lamp"
+      },
+      {
+        "name": "Super Lamp",
+        "img": "images/items/lamp_super.png",
+        "codes": "superlamp"
+      }
+    ]
+  },
+  {
+    "name": "Lost Maiamai",
+    "type": "consumable",
+    "img": "images/items/maiamai.png",
+    "max_quantity": 100,
+    "codes": "maiamai"
+  },
+  {
+    "name": "Master Ore",
+    "type": "consumable",
+    "img": "images/items/master_ore.png",
+    "max_quantity": 4,
+    "codes": "ore"
+  },
+  {
+    "name": "Monster Guts",
+    "type": "toggle",
+    "img": "images/junk/monster_guts.png",
+    "codes": "guts"
+  },
+  {
+    "name": "Monster Horn",
+    "type": "toggle",
+    "img": "images/junk/monster_horn.png",
+    "codes": "horn"
+  },
+  {
+    "name": "Monster Tail",
+    "type": "toggle",
+    "img": "images/junk/monster_tail.png",
+    "codes": "tail"
+  },
+  {
+    "name": "Pegasus Boots",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/items/pegasus_boots.png",
+    "codes": "boots, pegasusboots"
+  },
+  {
+    "name": "Pouch",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/items/pouch.png",
+    "codes": "pouch"
+  },
+  {
+    "name": "Power Glove / Titan's Mitt",
+    "type": "progressive",
+    "codes": "p_glove",
+    "stages": [
+      {
+        "name": "Power Glove",
+        "img": "images/items/power_glove.png",
+        "codes": "power_glove, glove"
+      },
+      {
+        "name": "Titan's Mitt",
+        "img": "images/items/titans_mitt.png",
+        "codes": "titansmitt"
+      }
+    ]
+  },
+  {
+    "name": "Purple Rupee",
+    "type": "toggle",
+    "img": "images/junk/rupee_purple.png",
+    "codes": "rupee_purple"
+  },
+  {
+    "name": "Quake",
+    "type": "toggle",
+    "img": "images/items/quake.png",
+    "codes": "quake, quake_medallion, earthquake, crack, cracks, fissure, fissures",
+    "loop": true,
+    "initial_active_state": false
+  },
+  {
+    "name": "Ravio's Shop",
+    "type": "progressive",
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/checks/ravio.png",
+        "img_mods": "@disabled",
+        "codes": "ravio_shop"
+      },
+      {
+        "img": "images/checks/signs.png",
+        "codes": "ravio_shop_signs"
+      },
+      {
+        "img": "images/checks/ravio.png",
+        "codes": "ravio_shop_open"
+      }
+    ]
+  },
+  {
+    "name": "Ravio's Bracelet",
+    "type": "progressive",
+    "codes": "p_bracelet",
+    "stages": [
+      {
+        "img": "images/items/bracelet.png",
+        "codes": "bracelet"
+      },
+      {
+        "img": "images/items/merge.png",
+        "codes": "merge"
+      }
+    ]
+  },
+  {
+    "name": "Red Rupee",
+    "type": "toggle",
+    "img": "images/junk/rupee_red.png",
+    "codes": "rupee_red"
+  },
+  {
+    "name": "Sand Rod",
+    "type": "progressive",
+    "codes": "p_sandrod",
+    "stages": [
+      {
+        "name": "Sand Rod",
+        "img": "images/items/srod.png",
+        "codes": "srod, sandrod"
+      },
+      {
+        "name": "Nice Sand Rod",
+        "img": "images/items/srod_nice.png",
+        "codes": "nicesrod, nicesandrod"
+      }
+    ]
+  },
+  {
+    "name": "Scoot Fruit",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/items/fruit_scoot.png",
+    "codes": "scoot, scootfruit"
+  },
+  {
+    "name": "Shady Guy",
+    "type": "toggle",
+    "img": "images/checks/shady_guy.png",
+    "loop": true,
+    "codes": "shadyguy"
+  },
+  {
+    "name": "Lamp Trial",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/events/trial_lamp_off.png",
+        "codes": "trial_lamp_off"
+      },
+      {
+        "img": "images/events/trial_lamp_on.png",
+        "codes": "trial_lamp"
+      }
+    ]
+  },
+  {
+    "name": "Hookshot Trial",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/events/trial_hook_off.png",
+        "codes": "trial_hook_off"
+      },
+      {
+        "img": "images/events/trial_hook_on.png",
+        "codes": "trial_hook"
+      }
+    ]
+  },
+  {
+    "name": "Bomb Trial",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/events/trial_bomb_off.png",
+        "codes": "trial_bomb_off"
+      },
+      {
+        "img": "images/events/trial_bomb_on.png",
+        "codes": "trial_bomb"
+      }
+    ]
+  },
+  {
+    "name": "Tile Trial",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/events/trial_tile_off.png",
+        "codes": "trial_tile_off"
+      },
+      {
+        "img": "images/events/trial_tile_on.png",
+        "codes": "trial_tile"
+      }
+    ]
+  },
+  {
+    "name": "Shield",
+    "type": "progressive",
+    "codes": "p_shield",
+    "stages": [
+      {
+        "name": "Shield",
+        "img": "images/items/shield.png",
+        "codes": "shield"
+      },
+      {
+        "name": "Hylian Shield",
+        "img": "images/items/shield_hylian.png",
+        "codes": "hylianshield"
+      }
+    ]
+  },
+  {
+    "name": "Silver Rupee",
+    "type": "toggle",
+    "img": "images/junk/rupee_silver.png",
+    "codes": "rupee_silver"
+  },
+  {
+    "name": "Small Key",
+    "type": "toggle",
+    "img": "images/items/key_small.png",
+    "codes": "key"
+  },
+  //  {
+  //    "name": "Smooth Gem",
+  //    "type": "toggle",
+  //    "loop": true,
+  //    "img": "images/items/smooth_gem.png",
+  //    "codes": "smooth_gem, smoothgem"
+  //  },
+  {
+    "name": "Stamina Scroll",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/items/stamina_scroll.png",
+    "codes": "scroll, staminascroll"
+  },
+  {
+    "name": "StreetPass Medals",
+    "type": "consumable",
+    "max_quantity": 50,
+    "img": "images/items/streetpass_medal.png",
+    "codes": "streetpass_medals"
+  },
+  {
+    "name": "Sword",
+    "type": "progressive",
+    "codes": "p_sword",
+    "mask_input": true,
+    "allow_disabled": false,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "name": "Swordless",
+        "img": "images/items/fsword.png",
+        "img_mods": "overlay|images/items/x_small.png",
+        "codes": "swordless"
+      },
+      {
+        "name": "Disabled Sword",
+        "img": "images/items/fsword.png",
+        "img_mods": "@disabled",
+        "inherit_codes": false
+      },
+      {
+        "name": "Forgotten Sword",
+        "img": "images/items/fsword.png",
+        "codes": "fsword, forgottensword, sword",
+        "inherit_codes": false
+      },
+      {
+        "name": "Master Sword",
+        "img": "images/items/msword.png",
+        "codes": "msword, mastersword"
+      },
+      {
+        "name": "Master Sword Lv2",
+        "img": "images/items/msword2.png",
+        "codes": "msword2, mastersword2, tempered, temperedsword"
+      },
+      {
+        "name": "Master Sword Lv3",
+        "img": "images/items/msword3.png",
+        "codes": "msword3, mastersword3, butter, buttersword"
+      }
+    ]
+  },
+  {
+    "name": "Tornado Rod",
+    "type": "progressive",
+    "codes": "p_tornadorod",
+    "stages": [
+      {
+        "img": "images/items/trod.png",
+        "codes": "trod, tornadorod"
+      },
+      {
+        "name": "Nice Tornado Rod",
+        "img": "images/items/trod_nice.png",
+        "codes": "nicetrod, nicetornadorod"
+      }
+    ]
+  },
+  {
+    "name": "Triforce",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/prizes/triforce.png",
+    "codes": "triforce_full"
+  },
+  {
+    "name": "Triforce of Courage",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/items/triforce_courage.png",
+    "codes": "triforce, triforce_courage, triforce_of_courage"
+  },
+  {
+    "name": "Tunic / Mail",
+    "type": "progressive",
+    "codes": "p_mail",
+    "allow_disabled": false,
+    "stages": [
+      {
+        "name": "Green Tunic",
+        "img": "images/items/mail_green.png",
+        "codes": "green_tunic, greentunic"
+      },
+      {
+        "name": "Blue Mail",
+        "img": "images/items/mail_blue.png",
+        "codes": "bluemail"
+      },
+      {
+        "name": "Red Mail",
+        "img": "images/items/mail_red.png",
+        "codes": "redmail"
+      }
+    ]
+  },
+  {
+    "name": "Yuga",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/prizes/yuga.png",
+    "codes": "yuga"
+  },
+  {
+    "name": "Zelda",
+    "type": "toggle",
+    "img": "images/checks/zelda.png",
+    "codes": "zelda"
+  },
+  {
+    "name": "Zora's Flippers",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/items/flippers.png",
+    "codes": "flippers"
+  },
+  {
+    "name": "Zora's Flippers / Smooth Gem",
+    "type": "toggle_badged",
+    "base_item": "flippers",
+    "img": "images/items/smooth_gem_small.png",
+    "disabled_img": "images/items/smooth_gem_small.png",
+    "codes": "smooth_gem"
+
+    //    "images": [
+    //      {
+    //        "left": false,
+    //        "right": false,
+    //        "img": "images/items/flippers.png",
+    //        "img_mods": "@disabled,overlay|images/items/smooth_gem_small_disabled.png"
+    //      },
+    //      {
+    //        "left": true,
+    //        "right": false,
+    //        "img": "images/items/flippers.png",
+    //        "img_mods": "overlay|images/items/smooth_gem_small_disabled.png"
+    //      },
+    //      {
+    //        "left": false,
+    //        "right": true,
+    //        "img": "images/items/flippers.png",
+    //        "img_mods": "@disabled,overlay|images/items/smooth_gem_small.png"
+    //      },
+    //      {
+    //        "left": true,
+    //        "right": true,
+    //        "img": "images/items/flippers.png",
+    //        "img_mods": "overlay|images/items/smooth_gem_small.png"
+    //      }
+    //    ]
+  }
+]

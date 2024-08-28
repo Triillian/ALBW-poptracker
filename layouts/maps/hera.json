@@ -1,0 +1,45 @@
+{
+  "hera": {
+    "type": "container",
+    "content": [
+      {
+        "type": "array",
+        "orientation": "vertical",
+        "h_alignment": "center",
+        "v_alignment": "center",
+        "content": [
+          {
+            "type": "map",
+            "maps": [
+              "hera3F",
+              "hera6F",
+              "hera9F",
+              "hera13F"
+            ]
+          },
+          {
+            "type": "map",
+            "maps": [
+              "hera2F",
+              "hera5F",
+              "hera8F",
+              "hera11F"
+            ]
+          },
+          {
+            "type": "map",
+            "maps": [
+              "hera1F",
+              "hera4F",
+              "hera7F",
+              "hera10F"
+            ]
+          },
+          {
+            "type": "container"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "options_menu": {
+    "type": "canvas",
+    "background": "#303841",
+    "item_size": 40,
+    "item_margin": "1",
+    "width": 290,
+    "height": 501,
+    "content": [
+
+      {
+        "type": "image",
+        "image": "images/options.png"
+      },
+
+      // ----- Options ----- //
+
+      {
+        "type": "item",
+        "item": "glitch_logic",
+        "height": 40,
+        "canvas_top": 34,
+        "canvas_left": 2
+      },
+      {
+        "type": "item",
+        "item": "minigames_disabled",
+        "height": 40,
+        "canvas_top": 70,
+        "canvas_left": 2
+      },
+      {
+        "type": "item",
+        "item": "lampless",
+        "height": 40,
+        "canvas_top": 106,
+        "canvas_left": 2
+      },
+
+      // ----- Out of Logic Glitches ----- //
+
+      {
+        "type": "item",
+        "item": "bombBoost",
+        "height": 40,
+        "canvas_top": 214,
+        "canvas_left": 2
+      },
+      {
+        "type": "item",
+        "item": "shieldRodClip",
+        "height": 40,
+        "canvas_top": 250,
+        "canvas_left": 2
+      },
+      {
+        "type": "item",
+        "item": "beeBoost",
+        "height": 40,
+        "canvas_top": 286,
+        "canvas_left": 2
+      },
+      {
+        "type": "item",
+        "item": "crackClipping",
+        "height": 40,
+        "canvas_top": 322,
+        "canvas_left": 2
+      },
+      {
+        "type": "item",
+        "item": "zagaBow",
+        "height": 40,
+        "canvas_top": 358,
+        "canvas_left": 2
+      },
+      {
+        "type": "item",
+        "item": "zagaSwordBeams",
+        "height": 40,
+        "canvas_top": 394,
+        "canvas_left": 2
+      },
+      {
+        "type": "item",
+        "item": "vulture",
+        "height": 40,
+        "canvas_top": 430,
+        "canvas_left": 2
+      },
+      {
+        "type": "item",
+        "item": "crowEscape",
+        "height": 40,
+        "canvas_top": 466,
+        "canvas_left": 2
+      }
+    ]
+  }
+}

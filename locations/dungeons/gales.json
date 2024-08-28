@@ -1,0 +1,199 @@
+[
+  {
+    "name": "House of Gales",
+    "color": "#0000FF",
+    "chest_unopened_img": "images/checks/chest_small_unopened.png",
+    "chest_opened_img": "images/checks/chest_small_opened.png",
+    "children": [
+      {
+        "name": "House of Gales",
+        "map_locations": [
+          {
+            "map": "hog1F",
+            "x": 142,
+            "y": 98
+          }
+        ],
+        "sections": [
+          {
+            "ref": "Hyrule Overworld/House of Gales/1F Bubble Room"
+          }
+        ]
+      },
+      {
+        "name": "House of Gales",
+        "map_locations": [
+          {
+            "map": "hog1F",
+            "x": 151,
+            "y": 30
+          }
+        ],
+        "sections": [
+          {
+            "ref": "Hyrule Overworld/House of Gales/1F NE Room"
+          }
+        ]
+      },
+      {
+        "name": "House of Gales",
+        "map_locations": [
+          {
+            "map": "hog1F",
+            "x": 92,
+            "y": 34
+          }
+        ],
+        "sections": [
+          {
+            "ref": "Hyrule Overworld/House of Gales/1F Torch Chest"
+          }
+        ]
+      },
+      {
+        "name": "House of Gales",
+        "map_locations": [
+          {
+            "map": "hog1F",
+            "x": 46,
+            "y": 84
+          }
+        ],
+        "sections": [
+          {
+            "ref": "Hyrule Overworld/House of Gales/1F Block Room"
+          }
+        ]
+      },
+      {
+        "name": "House of Gales",
+        "map_locations": [
+          {
+            "map": "hog1F",
+            "x": 21,
+            "y": 116
+          }
+        ],
+        "sections": [
+          {
+            "ref": "Hyrule Overworld/House of Gales/1F Block Room (SW)"
+          }
+        ]
+      },
+      {
+        "name": "House of Gales",
+        "map_locations": [
+          {
+            "map": "hog2F",
+            "x": 109,
+            "y": 107
+          }
+        ],
+        "sections": [
+          {
+            "ref": "Hyrule Overworld/House of Gales/2F Narrow Ledge"
+          }
+        ]
+      },
+      {
+        "name": "House of Gales",
+        "map_locations": [
+          {
+            "map": "hog2F",
+            "x": 31,
+            "y": 139
+          }
+        ],
+        "sections": [
+          {
+            "ref": "Hyrule Overworld/House of Gales/2F Fire Ring"
+          }
+        ]
+      },
+      {
+        "name": "House of Gales",
+        "map_locations": [
+          {
+            "map": "hog2F",
+            "x": 119,
+            "y": 135
+          }
+        ],
+        "sections": [
+          {
+            "ref": "Hyrule Overworld/House of Gales/2F Big Chest"
+          }
+        ]
+      },
+      {
+        "name": "House of Gales",
+        "map_locations": [
+          {
+            "map": "hog3F",
+            "x": 57,
+            "y": 123
+          }
+        ],
+        "sections": [
+          {
+            "ref": "Hyrule Overworld/House of Gales/3F Bubble Room"
+          }
+        ]
+      },
+      {
+        "name": "House of Gales",
+        "map_locations": [
+          {
+            "map": "hog3F",
+            "x": 134,
+            "y": 84
+          }
+        ],
+        "sections": [
+          {
+            "ref": "Hyrule Overworld/House of Gales/3F Wind Chest"
+          }
+        ]
+      },
+      {
+        "name": "House of Gales",
+        "map_locations": [
+          {
+            "map": "hog3F",
+            "x": 92,
+            "y": 42
+          }
+        ],
+        "sections": [
+          {
+            "ref": "Hyrule Overworld/House of Gales/Margomill"
+          }
+        ]
+      },
+      {
+        "name": "House of Gales",
+        "map_locations": [
+          {
+            "map": "hog3F",
+            "x": 92,
+            "y": 28,
+            "size": 20
+          }
+        ],
+        "sections": [
+          {"name": "Pendant of Power", "hosted_item": "power", "access_rules": ["$hog3F, $margomill"], "visibility_rules": ["label_power_hg"]},
+          {"name": "Pendant of Wisdom", "hosted_item": "wisdom", "access_rules": ["$hog3F, $margomill"], "visibility_rules": ["label_wisdom_hg"]},
+          {"name": "Pendant of Courage", "hosted_item": "courage", "access_rules": ["$hog3F, $margomill"], "visibility_rules": ["label_courage_hg"]},
+          {"name": "Gulley", "hosted_item": "gulley", "access_rules": ["$hog3F, $margomill"], "visibility_rules": ["label_gulley_hg"]},
+          {"name": "Oren", "hosted_item": "oren", "access_rules": ["$hog3F, $margomill"], "visibility_rules": ["label_oren_hg"]},
+          {"name": "Seres", "hosted_item": "seres", "access_rules": ["$hog3F, $margomill"], "visibility_rules": ["label_seres_hg"]},
+          {"name": "Osfala", "hosted_item": "osfala", "access_rules": ["$hog3F, $margomill"], "visibility_rules": ["label_osfala_hg"]},
+          {"name": "Impa", "hosted_item": "impa", "access_rules": ["$hog3F, $margomill"], "visibility_rules": ["label_impa_hg"]},
+          {"name": "Irene", "hosted_item": "irene", "access_rules": ["$hog3F, $margomill"], "visibility_rules": ["label_irene_hg"]},
+          {"name": "Rosso", "hosted_item": "rosso", "access_rules": ["$hog3F, $margomill"], "visibility_rules": ["label_rosso_hg"]}
+        ]
+      }
+      
+    ]
+  }
+]
