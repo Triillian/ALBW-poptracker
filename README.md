@@ -8,7 +8,7 @@ Worlds Randomizer.
 ## Release Notes
 
 - Author: arborelia for Tracker, Trillian for AutoTrack
-- Based heavily on the EmoTracker pack by RickwithanH
+- Based heavily on the EmoTracker pack by RickWithAnH
 
 
 ## Usage Guide
