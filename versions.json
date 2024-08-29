@@ -1,0 +1,18 @@
+// YOU DO NOT NEED TO PACKAGE THIS FILE UP WITH A RELEASE, BUT IT DOES NEED TO BE UPDATED/UPLOADED TO GITHUB FOR EACH RELEASE
+// THE SHA256 WILL BE FOR THE ZIP FILE YOU PLAN TO RELEASE
+// PACKAGE VERSION SHOULD MATCH THE PACKAGE VERSION IN MANIFEST
+// THE VERSION NUMBER IN THE DOWNLOAD URL MUST MATCH THE VERSION # ON GITHUB
+
+{
+    "versions": [
+        {
+            "package_version": "0.2.1",
+            "download_url": "https://github.com/Triillian/ALBW-poptracker/releases/download/0.2.1/albw-poptracker-main.zip",
+            "sha256": "NEED TO FILL THIS IN",
+            "changelog": [
+                "Fixed the auto tracking for Maiamai 77 in Lorule",
+                "Fixed logic Graveyard Ledge/Cave in Hyrule (need Bombs)"
+            ]
+        }
+    ]
+}
