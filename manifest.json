@@ -14,6 +14,6 @@
       ]
     }
   },
-  "versions_url": "https://raw.githubusercontent.com/Triillian/ALBW-poptracker/main/versions.json",
+  "versions_url": "https://github.com/Triillian/ALBW-poptracker/main/versions.json",
   "min_poptracker_version": "0.25.5"
 }
