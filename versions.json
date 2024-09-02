@@ -6,12 +6,11 @@
 {
     "versions": [
         {
-            "package_version": "0.2.1",
+            "package_version": "0.2.2",
             "download_url": "https://github.com/Triillian/ALBW-poptracker/releases/download/0.2.1/albw-poptracker-main.zip",
-            "sha256": "8a2f179199ac84c06678d1453101a17b5d0d8c6d51445d10a6ac6e171b221f62",
+            "sha256": "9c31a1b5ef82266ff0e678a3d5975bbc8a237d0b6a88cb9d94ae99e1687eaf07",
             "changelog": [
-                "Fixed the auto tracking for Maiamai 77 in Lorule",
-                "Fixed logic Graveyard Ledge/Cave in Hyrule (need Bombs)"
+                ""
             ]
         }
     ]
