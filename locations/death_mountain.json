@@ -400,7 +400,7 @@
           {
             "name": "Floating Island",
             "access_rules": [
-              "not_cracksanity, merge, quake, trod",
+              "not_cracksanity, merge, quake, trod, $access_dm_east_bottom",
               "crack_lofi, merge, quake"
             ],
             //"capture_item": true,

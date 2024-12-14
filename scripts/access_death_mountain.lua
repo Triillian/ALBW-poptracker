@@ -138,6 +138,9 @@ function access_dm_east_bottom()
 
     -- Hera Weather Vane
     if weather_vane("wv_hera") and hasAll({ "merge", "hookshot" }) then return true end
+
+    -- Lorule DM Weather Vane
+    if weather_vane("wv_death_lorule") and hasAll({ "merge", "quake" }) then return true end
     
     if notCracksanity() and hasAll({ "merge", "quake", "hookshot" }) then
 
