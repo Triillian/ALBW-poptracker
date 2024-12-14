@@ -543,6 +543,13 @@
     "codes": "shadyguy"
   },
   {
+    "name": "Thief Girl",
+    "type": "toggle",
+    "img": "images/checks/thief_girl.png",
+    "loop": true,
+    "codes": "thiefgirl"
+  },
+  {
     "name": "Lamp Trial",
     "type": "progressive",
     "allow_disabled": false,

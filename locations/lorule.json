@@ -405,7 +405,8 @@
                   "label_osfala_tt, osfala",
                   "label_impa_tt, impa",
                   "label_irene_tt, irene",
-                  "label_rosso_tt, rosso"
+                  "label_rosso_tt, rosso",
+                  "thiefgirl"
                 ],
                 "item_count": 1
               }
@@ -1132,6 +1133,17 @@
               "[advanced], $adv_th_statue_clip, trod, $attack",
               "[hell], $hell_th_statue_clip, trod, $attack"
             ]
+          },
+          {
+            "name": "Rescue Thief Girl",
+            "access_rules": [
+              "$thEscapeEquipment, merge, $attack_normal",
+              "[hard], $thEscapeEquipment, merge, $attack",
+              "[advanced], $adv_th_statue_clip, trod, $attack",
+              "[hell], $hell_th_statue_clip, trod, $attack"
+            ],
+            "item_count": 0,
+            "hosted_item": "thiefgirl"
           },
           {"name": "Pendant of Power", "hosted_item": "power", "access_rules": ["$thEscapeEquipment, merge, $attack_normal", "[hard], $thEscapeEquipment, merge, $attack", "[advanced], $adv_th_statue_clip, trod, $attack", "[hell], $hell_th_statue_clip, trod, $attack"], "visibility_rules": ["label_power_tt"]},
           {"name": "Pendant of Wisdom", "hosted_item": "wisdom", "access_rules": ["$thEscapeEquipment, merge, $attack_normal", "[hard], $thEscapeEquipment, merge, $attack", "[advanced], $adv_th_statue_clip, trod, $attack", "[hell], $hell_th_statue_clip, trod, $attack"], "visibility_rules": ["label_wisdom_tt"]},
